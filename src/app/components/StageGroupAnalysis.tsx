@@ -20,12 +20,9 @@ const COLORS = [
 ];
 
 const GROUP_NAMES: Record<string, string> = {
-  '1000': '챕터 1',
-  '2000': '챕터 2',
-  '3000': '챕터 3',
-  '4000': '챕터 4',
-  '5000': '챕터 5',
-  '6000': '챕터 6',
+  '2000': '일반스테이지',
+  '3000': '정예스테이지',
+  '5000': '운빨던전',
 };
 
 export default function StageGroupAnalysis({ data, unitNames }: Props) {
