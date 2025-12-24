@@ -7,6 +7,7 @@ import StageSelector from './components/StageSelector';
 import SlotAnalysis from './components/SlotAnalysis';
 import ComboAnalysis from './components/ComboAnalysis';
 import StageGroupAnalysis from './components/StageGroupAnalysis';
+import StageRangeAnalysis from './components/StageRangeAnalysis';
 
 interface UnitData {
   count: number;
@@ -52,7 +53,7 @@ export default function Home() {
   const [stageGroupStats, setStageGroupStats] = useState<StageGroupStats | null>(null);
   const [stageList, setStageList] = useState<string[]>([]);
   const [selectedStage, setSelectedStage] = useState<string>('');
-  const [activeTab, setActiveTab] = useState<'overall' | 'stage' | 'slot' | 'combo' | 'group'>('overall');
+  const [activeTab, setActiveTab] = useState<'overall' | 'stage' | 'range' | 'slot' | 'combo' | 'group'>('overall');
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -86,6 +87,7 @@ export default function Home() {
   const tabs = [
     { id: 'overall', label: '전체 통계', icon: '📊' },
     { id: 'stage', label: '스테이지별', icon: '🎯' },
+    { id: 'range', label: '구간별', icon: '📏' },
     { id: 'group', label: '챕터별', icon: '📁' },
     { id: 'slot', label: '슬롯별', icon: '🎰' },
     { id: 'combo', label: '유닛 조합', icon: '🤝' },
@@ -216,6 +218,15 @@ export default function Home() {
               </div>
             )}
           </div>
+        )}
+
+        {/* 구간별 통계 */}
+        {activeTab === 'range' && stageStats && (
+          <StageRangeAnalysis
+            stageData={stageStats.stages}
+            unitNames={stageStats.unitNames}
+            stageList={stageList}
+          />
         )}
 
         {/* 챕터별 통계 */}
