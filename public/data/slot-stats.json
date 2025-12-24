@@ -1,0 +1,289 @@
+{
+  "unitNames": {
+    "0": "영웅",
+    "1": "터렛",
+    "2": "제우스",
+    "3": "눈사람",
+    "4": "고릴라",
+    "5": "사도",
+    "6": "거북이",
+    "7": "지우개",
+    "8": "우주모함",
+    "9": "벙커",
+    "10": "어쌔신",
+    "11": "또르",
+    "12": "바람돌이"
+  },
+  "slots": {
+    "1": {
+      "0": {
+        "count": 749734,
+        "percentage": "94.53"
+      },
+      "1": {
+        "count": 10307,
+        "percentage": "1.30"
+      },
+      "2": {
+        "count": 14673,
+        "percentage": "1.85"
+      },
+      "3": {
+        "count": 2367,
+        "percentage": "0.30"
+      },
+      "4": {
+        "count": 2340,
+        "percentage": "0.30"
+      },
+      "5": {
+        "count": 3206,
+        "percentage": "0.40"
+      },
+      "6": {
+        "count": 4387,
+        "percentage": "0.55"
+      },
+      "7": {
+        "count": 1661,
+        "percentage": "0.21"
+      },
+      "8": {
+        "count": 2545,
+        "percentage": "0.32"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1324,
+        "percentage": "0.17"
+      },
+      "11": {
+        "count": 133,
+        "percentage": "0.02"
+      },
+      "12": {
+        "count": 439,
+        "percentage": "0.06"
+      }
+    },
+    "2": {
+      "0": {
+        "count": 24314,
+        "percentage": "3.07"
+      },
+      "1": {
+        "count": 113220,
+        "percentage": "14.28"
+      },
+      "2": {
+        "count": 132680,
+        "percentage": "16.73"
+      },
+      "3": {
+        "count": 67569,
+        "percentage": "8.52"
+      },
+      "4": {
+        "count": 54196,
+        "percentage": "6.83"
+      },
+      "5": {
+        "count": 75391,
+        "percentage": "9.51"
+      },
+      "6": {
+        "count": 115073,
+        "percentage": "14.51"
+      },
+      "7": {
+        "count": 38509,
+        "percentage": "4.86"
+      },
+      "8": {
+        "count": 83830,
+        "percentage": "10.57"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 59796,
+        "percentage": "7.54"
+      },
+      "11": {
+        "count": 5280,
+        "percentage": "0.67"
+      },
+      "12": {
+        "count": 23150,
+        "percentage": "2.92"
+      }
+    },
+    "3": {
+      "0": {
+        "count": 2562,
+        "percentage": "0.33"
+      },
+      "1": {
+        "count": 100067,
+        "percentage": "12.89"
+      },
+      "2": {
+        "count": 136651,
+        "percentage": "17.60"
+      },
+      "3": {
+        "count": 89925,
+        "percentage": "11.58"
+      },
+      "4": {
+        "count": 61792,
+        "percentage": "7.96"
+      },
+      "5": {
+        "count": 74048,
+        "percentage": "9.54"
+      },
+      "6": {
+        "count": 104188,
+        "percentage": "13.42"
+      },
+      "7": {
+        "count": 44648,
+        "percentage": "5.75"
+      },
+      "8": {
+        "count": 76728,
+        "percentage": "9.88"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 53332,
+        "percentage": "6.87"
+      },
+      "11": {
+        "count": 6691,
+        "percentage": "0.86"
+      },
+      "12": {
+        "count": 25721,
+        "percentage": "3.31"
+      }
+    },
+    "4": {
+      "0": {
+        "count": 4,
+        "percentage": "0.00"
+      },
+      "1": {
+        "count": 56976,
+        "percentage": "10.95"
+      },
+      "2": {
+        "count": 76893,
+        "percentage": "14.78"
+      },
+      "3": {
+        "count": 75019,
+        "percentage": "14.42"
+      },
+      "4": {
+        "count": 45890,
+        "percentage": "8.82"
+      },
+      "5": {
+        "count": 44006,
+        "percentage": "8.46"
+      },
+      "6": {
+        "count": 70948,
+        "percentage": "13.63"
+      },
+      "7": {
+        "count": 33563,
+        "percentage": "6.45"
+      },
+      "8": {
+        "count": 54125,
+        "percentage": "10.40"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 36207,
+        "percentage": "6.96"
+      },
+      "11": {
+        "count": 5562,
+        "percentage": "1.07"
+      },
+      "12": {
+        "count": 21152,
+        "percentage": "4.06"
+      }
+    },
+    "5": {
+      "0": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "1": {
+        "count": 24364,
+        "percentage": "10.60"
+      },
+      "2": {
+        "count": 31210,
+        "percentage": "13.57"
+      },
+      "3": {
+        "count": 32139,
+        "percentage": "13.98"
+      },
+      "4": {
+        "count": 25033,
+        "percentage": "10.89"
+      },
+      "5": {
+        "count": 20969,
+        "percentage": "9.12"
+      },
+      "6": {
+        "count": 29742,
+        "percentage": "12.94"
+      },
+      "7": {
+        "count": 17787,
+        "percentage": "7.74"
+      },
+      "8": {
+        "count": 21972,
+        "percentage": "9.56"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 14954,
+        "percentage": "6.50"
+      },
+      "11": {
+        "count": 3313,
+        "percentage": "1.44"
+      },
+      "12": {
+        "count": 8448,
+        "percentage": "3.67"
+      }
+    }
+  }
+}

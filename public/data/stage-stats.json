@@ -1,0 +1,7255 @@
+{
+  "unitNames": {
+    "0": "영웅",
+    "1": "터렛",
+    "2": "제우스",
+    "3": "눈사람",
+    "4": "고릴라",
+    "5": "사도",
+    "6": "거북이",
+    "7": "지우개",
+    "8": "우주모함",
+    "9": "벙커",
+    "10": "어쌔신",
+    "11": "또르",
+    "12": "바람돌이"
+  },
+  "stages": {
+    "2001": {
+      "0": {
+        "count": 73358,
+        "percentage": "28.30"
+      },
+      "1": {
+        "count": 56692,
+        "percentage": "21.87"
+      },
+      "2": {
+        "count": 55601,
+        "percentage": "21.45"
+      },
+      "3": {
+        "count": 39721,
+        "percentage": "15.32"
+      },
+      "4": {
+        "count": 10601,
+        "percentage": "4.09"
+      },
+      "5": {
+        "count": 13433,
+        "percentage": "5.18"
+      },
+      "6": {
+        "count": 7600,
+        "percentage": "2.93"
+      },
+      "7": {
+        "count": 960,
+        "percentage": "0.37"
+      },
+      "8": {
+        "count": 852,
+        "percentage": "0.33"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 295,
+        "percentage": "0.11"
+      },
+      "11": {
+        "count": 85,
+        "percentage": "0.03"
+      },
+      "12": {
+        "count": 48,
+        "percentage": "0.02"
+      }
+    },
+    "2002": {
+      "0": {
+        "count": 53844,
+        "percentage": "27.22"
+      },
+      "1": {
+        "count": 35807,
+        "percentage": "18.10"
+      },
+      "2": {
+        "count": 34244,
+        "percentage": "17.31"
+      },
+      "3": {
+        "count": 22945,
+        "percentage": "11.60"
+      },
+      "4": {
+        "count": 29668,
+        "percentage": "15.00"
+      },
+      "5": {
+        "count": 12895,
+        "percentage": "6.52"
+      },
+      "6": {
+        "count": 6550,
+        "percentage": "3.31"
+      },
+      "7": {
+        "count": 881,
+        "percentage": "0.45"
+      },
+      "8": {
+        "count": 675,
+        "percentage": "0.34"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 234,
+        "percentage": "0.12"
+      },
+      "11": {
+        "count": 56,
+        "percentage": "0.03"
+      },
+      "12": {
+        "count": 27,
+        "percentage": "0.01"
+      }
+    },
+    "2003": {
+      "0": {
+        "count": 45590,
+        "percentage": "27.04"
+      },
+      "1": {
+        "count": 28861,
+        "percentage": "17.12"
+      },
+      "2": {
+        "count": 26171,
+        "percentage": "15.52"
+      },
+      "3": {
+        "count": 21528,
+        "percentage": "12.77"
+      },
+      "4": {
+        "count": 19064,
+        "percentage": "11.31"
+      },
+      "5": {
+        "count": 15160,
+        "percentage": "8.99"
+      },
+      "6": {
+        "count": 9797,
+        "percentage": "5.81"
+      },
+      "7": {
+        "count": 1253,
+        "percentage": "0.74"
+      },
+      "8": {
+        "count": 832,
+        "percentage": "0.49"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 251,
+        "percentage": "0.15"
+      },
+      "11": {
+        "count": 50,
+        "percentage": "0.03"
+      },
+      "12": {
+        "count": 30,
+        "percentage": "0.02"
+      }
+    },
+    "2004": {
+      "0": {
+        "count": 35774,
+        "percentage": "26.65"
+      },
+      "1": {
+        "count": 20711,
+        "percentage": "15.43"
+      },
+      "2": {
+        "count": 21059,
+        "percentage": "15.69"
+      },
+      "3": {
+        "count": 14442,
+        "percentage": "10.76"
+      },
+      "4": {
+        "count": 12637,
+        "percentage": "9.41"
+      },
+      "5": {
+        "count": 16792,
+        "percentage": "12.51"
+      },
+      "6": {
+        "count": 10152,
+        "percentage": "7.56"
+      },
+      "7": {
+        "count": 1501,
+        "percentage": "1.12"
+      },
+      "8": {
+        "count": 830,
+        "percentage": "0.62"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 252,
+        "percentage": "0.19"
+      },
+      "11": {
+        "count": 53,
+        "percentage": "0.04"
+      },
+      "12": {
+        "count": 27,
+        "percentage": "0.02"
+      }
+    },
+    "2005": {
+      "0": {
+        "count": 28786,
+        "percentage": "25.21"
+      },
+      "1": {
+        "count": 14465,
+        "percentage": "12.67"
+      },
+      "2": {
+        "count": 17496,
+        "percentage": "15.32"
+      },
+      "3": {
+        "count": 12777,
+        "percentage": "11.19"
+      },
+      "4": {
+        "count": 9289,
+        "percentage": "8.13"
+      },
+      "5": {
+        "count": 12825,
+        "percentage": "11.23"
+      },
+      "6": {
+        "count": 13101,
+        "percentage": "11.47"
+      },
+      "7": {
+        "count": 3711,
+        "percentage": "3.25"
+      },
+      "8": {
+        "count": 1314,
+        "percentage": "1.15"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 335,
+        "percentage": "0.29"
+      },
+      "11": {
+        "count": 56,
+        "percentage": "0.05"
+      },
+      "12": {
+        "count": 52,
+        "percentage": "0.05"
+      }
+    },
+    "2006": {
+      "0": {
+        "count": 24724,
+        "percentage": "24.85"
+      },
+      "1": {
+        "count": 12462,
+        "percentage": "12.53"
+      },
+      "2": {
+        "count": 13641,
+        "percentage": "13.71"
+      },
+      "3": {
+        "count": 10407,
+        "percentage": "10.46"
+      },
+      "4": {
+        "count": 7083,
+        "percentage": "7.12"
+      },
+      "5": {
+        "count": 12581,
+        "percentage": "12.64"
+      },
+      "6": {
+        "count": 13244,
+        "percentage": "13.31"
+      },
+      "7": {
+        "count": 3614,
+        "percentage": "3.63"
+      },
+      "8": {
+        "count": 1318,
+        "percentage": "1.32"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 321,
+        "percentage": "0.32"
+      },
+      "11": {
+        "count": 62,
+        "percentage": "0.06"
+      },
+      "12": {
+        "count": 37,
+        "percentage": "0.04"
+      }
+    },
+    "2007": {
+      "0": {
+        "count": 23948,
+        "percentage": "24.70"
+      },
+      "1": {
+        "count": 11406,
+        "percentage": "11.76"
+      },
+      "2": {
+        "count": 13600,
+        "percentage": "14.03"
+      },
+      "3": {
+        "count": 9048,
+        "percentage": "9.33"
+      },
+      "4": {
+        "count": 6119,
+        "percentage": "6.31"
+      },
+      "5": {
+        "count": 11327,
+        "percentage": "11.68"
+      },
+      "6": {
+        "count": 13403,
+        "percentage": "13.82"
+      },
+      "7": {
+        "count": 5482,
+        "percentage": "5.65"
+      },
+      "8": {
+        "count": 2059,
+        "percentage": "2.12"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 432,
+        "percentage": "0.45"
+      },
+      "11": {
+        "count": 88,
+        "percentage": "0.09"
+      },
+      "12": {
+        "count": 38,
+        "percentage": "0.04"
+      }
+    },
+    "2008": {
+      "0": {
+        "count": 21312,
+        "percentage": "24.16"
+      },
+      "1": {
+        "count": 8174,
+        "percentage": "9.27"
+      },
+      "2": {
+        "count": 12688,
+        "percentage": "14.39"
+      },
+      "3": {
+        "count": 7516,
+        "percentage": "8.52"
+      },
+      "4": {
+        "count": 6085,
+        "percentage": "6.90"
+      },
+      "5": {
+        "count": 8345,
+        "percentage": "9.46"
+      },
+      "6": {
+        "count": 11201,
+        "percentage": "12.70"
+      },
+      "7": {
+        "count": 8485,
+        "percentage": "9.62"
+      },
+      "8": {
+        "count": 3588,
+        "percentage": "4.07"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 662,
+        "percentage": "0.75"
+      },
+      "11": {
+        "count": 100,
+        "percentage": "0.11"
+      },
+      "12": {
+        "count": 46,
+        "percentage": "0.05"
+      }
+    },
+    "2009": {
+      "0": {
+        "count": 24416,
+        "percentage": "24.00"
+      },
+      "1": {
+        "count": 9275,
+        "percentage": "9.12"
+      },
+      "2": {
+        "count": 11980,
+        "percentage": "11.78"
+      },
+      "3": {
+        "count": 8569,
+        "percentage": "8.42"
+      },
+      "4": {
+        "count": 6310,
+        "percentage": "6.20"
+      },
+      "5": {
+        "count": 8001,
+        "percentage": "7.86"
+      },
+      "6": {
+        "count": 13945,
+        "percentage": "13.71"
+      },
+      "7": {
+        "count": 9442,
+        "percentage": "9.28"
+      },
+      "8": {
+        "count": 7806,
+        "percentage": "7.67"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1728,
+        "percentage": "1.70"
+      },
+      "11": {
+        "count": 178,
+        "percentage": "0.17"
+      },
+      "12": {
+        "count": 81,
+        "percentage": "0.08"
+      }
+    },
+    "2010": {
+      "0": {
+        "count": 22024,
+        "percentage": "22.74"
+      },
+      "1": {
+        "count": 4546,
+        "percentage": "4.69"
+      },
+      "2": {
+        "count": 11108,
+        "percentage": "11.47"
+      },
+      "3": {
+        "count": 7715,
+        "percentage": "7.97"
+      },
+      "4": {
+        "count": 3264,
+        "percentage": "3.37"
+      },
+      "5": {
+        "count": 6119,
+        "percentage": "6.32"
+      },
+      "6": {
+        "count": 17167,
+        "percentage": "17.73"
+      },
+      "7": {
+        "count": 8885,
+        "percentage": "9.17"
+      },
+      "8": {
+        "count": 11129,
+        "percentage": "11.49"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 4326,
+        "percentage": "4.47"
+      },
+      "11": {
+        "count": 328,
+        "percentage": "0.34"
+      },
+      "12": {
+        "count": 231,
+        "percentage": "0.24"
+      }
+    },
+    "2011": {
+      "0": {
+        "count": 13853,
+        "percentage": "23.71"
+      },
+      "1": {
+        "count": 4542,
+        "percentage": "7.77"
+      },
+      "2": {
+        "count": 6503,
+        "percentage": "11.13"
+      },
+      "3": {
+        "count": 4146,
+        "percentage": "7.09"
+      },
+      "4": {
+        "count": 2746,
+        "percentage": "4.70"
+      },
+      "5": {
+        "count": 4645,
+        "percentage": "7.95"
+      },
+      "6": {
+        "count": 8597,
+        "percentage": "14.71"
+      },
+      "7": {
+        "count": 4992,
+        "percentage": "8.54"
+      },
+      "8": {
+        "count": 6219,
+        "percentage": "10.64"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1889,
+        "percentage": "3.23"
+      },
+      "11": {
+        "count": 210,
+        "percentage": "0.36"
+      },
+      "12": {
+        "count": 95,
+        "percentage": "0.16"
+      }
+    },
+    "2012": {
+      "0": {
+        "count": 15718,
+        "percentage": "23.94"
+      },
+      "1": {
+        "count": 4426,
+        "percentage": "6.74"
+      },
+      "2": {
+        "count": 6385,
+        "percentage": "9.73"
+      },
+      "3": {
+        "count": 4632,
+        "percentage": "7.06"
+      },
+      "4": {
+        "count": 3593,
+        "percentage": "5.47"
+      },
+      "5": {
+        "count": 4035,
+        "percentage": "6.15"
+      },
+      "6": {
+        "count": 9702,
+        "percentage": "14.78"
+      },
+      "7": {
+        "count": 4701,
+        "percentage": "7.16"
+      },
+      "8": {
+        "count": 8562,
+        "percentage": "13.04"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 3461,
+        "percentage": "5.27"
+      },
+      "11": {
+        "count": 296,
+        "percentage": "0.45"
+      },
+      "12": {
+        "count": 135,
+        "percentage": "0.21"
+      }
+    },
+    "2013": {
+      "0": {
+        "count": 13510,
+        "percentage": "23.50"
+      },
+      "1": {
+        "count": 3074,
+        "percentage": "5.35"
+      },
+      "2": {
+        "count": 6837,
+        "percentage": "11.89"
+      },
+      "3": {
+        "count": 3832,
+        "percentage": "6.67"
+      },
+      "4": {
+        "count": 2780,
+        "percentage": "4.84"
+      },
+      "5": {
+        "count": 3596,
+        "percentage": "6.26"
+      },
+      "6": {
+        "count": 7958,
+        "percentage": "13.84"
+      },
+      "7": {
+        "count": 3949,
+        "percentage": "6.87"
+      },
+      "8": {
+        "count": 8113,
+        "percentage": "14.11"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 3359,
+        "percentage": "5.84"
+      },
+      "11": {
+        "count": 309,
+        "percentage": "0.54"
+      },
+      "12": {
+        "count": 164,
+        "percentage": "0.29"
+      }
+    },
+    "2014": {
+      "0": {
+        "count": 13632,
+        "percentage": "23.71"
+      },
+      "1": {
+        "count": 3092,
+        "percentage": "5.38"
+      },
+      "2": {
+        "count": 6063,
+        "percentage": "10.54"
+      },
+      "3": {
+        "count": 3807,
+        "percentage": "6.62"
+      },
+      "4": {
+        "count": 2793,
+        "percentage": "4.86"
+      },
+      "5": {
+        "count": 3505,
+        "percentage": "6.10"
+      },
+      "6": {
+        "count": 7956,
+        "percentage": "13.84"
+      },
+      "7": {
+        "count": 3742,
+        "percentage": "6.51"
+      },
+      "8": {
+        "count": 8209,
+        "percentage": "14.28"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 4041,
+        "percentage": "7.03"
+      },
+      "11": {
+        "count": 435,
+        "percentage": "0.76"
+      },
+      "12": {
+        "count": 223,
+        "percentage": "0.39"
+      }
+    },
+    "2015": {
+      "0": {
+        "count": 14276,
+        "percentage": "23.94"
+      },
+      "1": {
+        "count": 1878,
+        "percentage": "3.15"
+      },
+      "2": {
+        "count": 6157,
+        "percentage": "10.32"
+      },
+      "3": {
+        "count": 2801,
+        "percentage": "4.70"
+      },
+      "4": {
+        "count": 2334,
+        "percentage": "3.91"
+      },
+      "5": {
+        "count": 1723,
+        "percentage": "2.89"
+      },
+      "6": {
+        "count": 7861,
+        "percentage": "13.18"
+      },
+      "7": {
+        "count": 2795,
+        "percentage": "4.69"
+      },
+      "8": {
+        "count": 10991,
+        "percentage": "18.43"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 7228,
+        "percentage": "12.12"
+      },
+      "11": {
+        "count": 811,
+        "percentage": "1.36"
+      },
+      "12": {
+        "count": 789,
+        "percentage": "1.32"
+      }
+    },
+    "2016": {
+      "0": {
+        "count": 11734,
+        "percentage": "24.21"
+      },
+      "1": {
+        "count": 1705,
+        "percentage": "3.52"
+      },
+      "2": {
+        "count": 3906,
+        "percentage": "8.06"
+      },
+      "3": {
+        "count": 2572,
+        "percentage": "5.31"
+      },
+      "4": {
+        "count": 2471,
+        "percentage": "5.10"
+      },
+      "5": {
+        "count": 1458,
+        "percentage": "3.01"
+      },
+      "6": {
+        "count": 6169,
+        "percentage": "12.73"
+      },
+      "7": {
+        "count": 1867,
+        "percentage": "3.85"
+      },
+      "8": {
+        "count": 8280,
+        "percentage": "17.08"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 6873,
+        "percentage": "14.18"
+      },
+      "11": {
+        "count": 735,
+        "percentage": "1.52"
+      },
+      "12": {
+        "count": 702,
+        "percentage": "1.45"
+      }
+    },
+    "2017": {
+      "0": {
+        "count": 9911,
+        "percentage": "24.06"
+      },
+      "1": {
+        "count": 1193,
+        "percentage": "2.90"
+      },
+      "2": {
+        "count": 4843,
+        "percentage": "11.76"
+      },
+      "3": {
+        "count": 2043,
+        "percentage": "4.96"
+      },
+      "4": {
+        "count": 1681,
+        "percentage": "4.08"
+      },
+      "5": {
+        "count": 2235,
+        "percentage": "5.43"
+      },
+      "6": {
+        "count": 4473,
+        "percentage": "10.86"
+      },
+      "7": {
+        "count": 1464,
+        "percentage": "3.55"
+      },
+      "8": {
+        "count": 6489,
+        "percentage": "15.75"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 5197,
+        "percentage": "12.62"
+      },
+      "11": {
+        "count": 1000,
+        "percentage": "2.43"
+      },
+      "12": {
+        "count": 664,
+        "percentage": "1.61"
+      }
+    },
+    "2018": {
+      "0": {
+        "count": 8672,
+        "percentage": "23.85"
+      },
+      "1": {
+        "count": 1195,
+        "percentage": "3.29"
+      },
+      "2": {
+        "count": 3346,
+        "percentage": "9.20"
+      },
+      "3": {
+        "count": 1785,
+        "percentage": "4.91"
+      },
+      "4": {
+        "count": 1602,
+        "percentage": "4.41"
+      },
+      "5": {
+        "count": 982,
+        "percentage": "2.70"
+      },
+      "6": {
+        "count": 3711,
+        "percentage": "10.20"
+      },
+      "7": {
+        "count": 2483,
+        "percentage": "6.83"
+      },
+      "8": {
+        "count": 5649,
+        "percentage": "15.53"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 5036,
+        "percentage": "13.85"
+      },
+      "11": {
+        "count": 709,
+        "percentage": "1.95"
+      },
+      "12": {
+        "count": 1197,
+        "percentage": "3.29"
+      }
+    },
+    "2019": {
+      "0": {
+        "count": 9513,
+        "percentage": "23.81"
+      },
+      "1": {
+        "count": 969,
+        "percentage": "2.43"
+      },
+      "2": {
+        "count": 4119,
+        "percentage": "10.31"
+      },
+      "3": {
+        "count": 1972,
+        "percentage": "4.94"
+      },
+      "4": {
+        "count": 1761,
+        "percentage": "4.41"
+      },
+      "5": {
+        "count": 1012,
+        "percentage": "2.53"
+      },
+      "6": {
+        "count": 4152,
+        "percentage": "10.39"
+      },
+      "7": {
+        "count": 1616,
+        "percentage": "4.04"
+      },
+      "8": {
+        "count": 6446,
+        "percentage": "16.13"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 5634,
+        "percentage": "14.10"
+      },
+      "11": {
+        "count": 766,
+        "percentage": "1.92"
+      },
+      "12": {
+        "count": 1996,
+        "percentage": "5.00"
+      }
+    },
+    "2020": {
+      "0": {
+        "count": 9820,
+        "percentage": "23.73"
+      },
+      "1": {
+        "count": 628,
+        "percentage": "1.52"
+      },
+      "2": {
+        "count": 5654,
+        "percentage": "13.66"
+      },
+      "3": {
+        "count": 1997,
+        "percentage": "4.83"
+      },
+      "4": {
+        "count": 1276,
+        "percentage": "3.08"
+      },
+      "5": {
+        "count": 1116,
+        "percentage": "2.70"
+      },
+      "6": {
+        "count": 3249,
+        "percentage": "7.85"
+      },
+      "7": {
+        "count": 1229,
+        "percentage": "2.97"
+      },
+      "8": {
+        "count": 5762,
+        "percentage": "13.92"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 5995,
+        "percentage": "14.49"
+      },
+      "11": {
+        "count": 744,
+        "percentage": "1.80"
+      },
+      "12": {
+        "count": 3915,
+        "percentage": "9.46"
+      }
+    },
+    "2021": {
+      "0": {
+        "count": 6634,
+        "percentage": "23.06"
+      },
+      "1": {
+        "count": 752,
+        "percentage": "2.61"
+      },
+      "2": {
+        "count": 2536,
+        "percentage": "8.81"
+      },
+      "3": {
+        "count": 1451,
+        "percentage": "5.04"
+      },
+      "4": {
+        "count": 983,
+        "percentage": "3.42"
+      },
+      "5": {
+        "count": 450,
+        "percentage": "1.56"
+      },
+      "6": {
+        "count": 3142,
+        "percentage": "10.92"
+      },
+      "7": {
+        "count": 1677,
+        "percentage": "5.83"
+      },
+      "8": {
+        "count": 4453,
+        "percentage": "15.48"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 3507,
+        "percentage": "12.19"
+      },
+      "11": {
+        "count": 508,
+        "percentage": "1.77"
+      },
+      "12": {
+        "count": 2678,
+        "percentage": "9.31"
+      }
+    },
+    "2022": {
+      "0": {
+        "count": 5200,
+        "percentage": "23.24"
+      },
+      "1": {
+        "count": 544,
+        "percentage": "2.43"
+      },
+      "2": {
+        "count": 2424,
+        "percentage": "10.83"
+      },
+      "3": {
+        "count": 995,
+        "percentage": "4.45"
+      },
+      "4": {
+        "count": 957,
+        "percentage": "4.28"
+      },
+      "5": {
+        "count": 465,
+        "percentage": "2.08"
+      },
+      "6": {
+        "count": 1775,
+        "percentage": "7.93"
+      },
+      "7": {
+        "count": 1208,
+        "percentage": "5.40"
+      },
+      "8": {
+        "count": 3146,
+        "percentage": "14.06"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 2947,
+        "percentage": "13.17"
+      },
+      "11": {
+        "count": 548,
+        "percentage": "2.45"
+      },
+      "12": {
+        "count": 2170,
+        "percentage": "9.70"
+      }
+    },
+    "2023": {
+      "0": {
+        "count": 5021,
+        "percentage": "23.55"
+      },
+      "1": {
+        "count": 357,
+        "percentage": "1.67"
+      },
+      "2": {
+        "count": 1748,
+        "percentage": "8.20"
+      },
+      "3": {
+        "count": 832,
+        "percentage": "3.90"
+      },
+      "4": {
+        "count": 895,
+        "percentage": "4.20"
+      },
+      "5": {
+        "count": 250,
+        "percentage": "1.17"
+      },
+      "6": {
+        "count": 1705,
+        "percentage": "8.00"
+      },
+      "7": {
+        "count": 910,
+        "percentage": "4.27"
+      },
+      "8": {
+        "count": 3358,
+        "percentage": "15.75"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 3044,
+        "percentage": "14.28"
+      },
+      "11": {
+        "count": 333,
+        "percentage": "1.56"
+      },
+      "12": {
+        "count": 2864,
+        "percentage": "13.44"
+      }
+    },
+    "2024": {
+      "0": {
+        "count": 5448,
+        "percentage": "23.61"
+      },
+      "1": {
+        "count": 547,
+        "percentage": "2.37"
+      },
+      "2": {
+        "count": 1738,
+        "percentage": "7.53"
+      },
+      "3": {
+        "count": 851,
+        "percentage": "3.69"
+      },
+      "4": {
+        "count": 995,
+        "percentage": "4.31"
+      },
+      "5": {
+        "count": 379,
+        "percentage": "1.64"
+      },
+      "6": {
+        "count": 1692,
+        "percentage": "7.33"
+      },
+      "7": {
+        "count": 824,
+        "percentage": "3.57"
+      },
+      "8": {
+        "count": 3248,
+        "percentage": "14.08"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 3522,
+        "percentage": "15.27"
+      },
+      "11": {
+        "count": 391,
+        "percentage": "1.69"
+      },
+      "12": {
+        "count": 3437,
+        "percentage": "14.90"
+      }
+    },
+    "2025": {
+      "0": {
+        "count": 4158,
+        "percentage": "24.12"
+      },
+      "1": {
+        "count": 342,
+        "percentage": "1.98"
+      },
+      "2": {
+        "count": 976,
+        "percentage": "5.66"
+      },
+      "3": {
+        "count": 591,
+        "percentage": "3.43"
+      },
+      "4": {
+        "count": 649,
+        "percentage": "3.77"
+      },
+      "5": {
+        "count": 164,
+        "percentage": "0.95"
+      },
+      "6": {
+        "count": 1458,
+        "percentage": "8.46"
+      },
+      "7": {
+        "count": 331,
+        "percentage": "1.92"
+      },
+      "8": {
+        "count": 2828,
+        "percentage": "16.41"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 3195,
+        "percentage": "18.54"
+      },
+      "11": {
+        "count": 180,
+        "percentage": "1.04"
+      },
+      "12": {
+        "count": 2364,
+        "percentage": "13.72"
+      }
+    },
+    "2026": {
+      "0": {
+        "count": 3785,
+        "percentage": "23.36"
+      },
+      "1": {
+        "count": 410,
+        "percentage": "2.53"
+      },
+      "2": {
+        "count": 1060,
+        "percentage": "6.54"
+      },
+      "3": {
+        "count": 509,
+        "percentage": "3.14"
+      },
+      "4": {
+        "count": 755,
+        "percentage": "4.66"
+      },
+      "5": {
+        "count": 135,
+        "percentage": "0.83"
+      },
+      "6": {
+        "count": 964,
+        "percentage": "5.95"
+      },
+      "7": {
+        "count": 825,
+        "percentage": "5.09"
+      },
+      "8": {
+        "count": 2267,
+        "percentage": "13.99"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 2315,
+        "percentage": "14.29"
+      },
+      "11": {
+        "count": 213,
+        "percentage": "1.31"
+      },
+      "12": {
+        "count": 2966,
+        "percentage": "18.30"
+      }
+    },
+    "2027": {
+      "0": {
+        "count": 2747,
+        "percentage": "23.46"
+      },
+      "1": {
+        "count": 236,
+        "percentage": "2.02"
+      },
+      "2": {
+        "count": 920,
+        "percentage": "7.86"
+      },
+      "3": {
+        "count": 326,
+        "percentage": "2.78"
+      },
+      "4": {
+        "count": 561,
+        "percentage": "4.79"
+      },
+      "5": {
+        "count": 143,
+        "percentage": "1.22"
+      },
+      "6": {
+        "count": 717,
+        "percentage": "6.12"
+      },
+      "7": {
+        "count": 324,
+        "percentage": "2.77"
+      },
+      "8": {
+        "count": 1689,
+        "percentage": "14.43"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1867,
+        "percentage": "15.95"
+      },
+      "11": {
+        "count": 137,
+        "percentage": "1.17"
+      },
+      "12": {
+        "count": 2040,
+        "percentage": "17.43"
+      }
+    },
+    "2028": {
+      "0": {
+        "count": 2510,
+        "percentage": "23.11"
+      },
+      "1": {
+        "count": 221,
+        "percentage": "2.03"
+      },
+      "2": {
+        "count": 703,
+        "percentage": "6.47"
+      },
+      "3": {
+        "count": 347,
+        "percentage": "3.19"
+      },
+      "4": {
+        "count": 692,
+        "percentage": "6.37"
+      },
+      "5": {
+        "count": 107,
+        "percentage": "0.99"
+      },
+      "6": {
+        "count": 525,
+        "percentage": "4.83"
+      },
+      "7": {
+        "count": 215,
+        "percentage": "1.98"
+      },
+      "8": {
+        "count": 1427,
+        "percentage": "13.14"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1614,
+        "percentage": "14.86"
+      },
+      "11": {
+        "count": 189,
+        "percentage": "1.74"
+      },
+      "12": {
+        "count": 2312,
+        "percentage": "21.29"
+      }
+    },
+    "2029": {
+      "0": {
+        "count": 2346,
+        "percentage": "23.48"
+      },
+      "1": {
+        "count": 244,
+        "percentage": "2.44"
+      },
+      "2": {
+        "count": 550,
+        "percentage": "5.50"
+      },
+      "3": {
+        "count": 364,
+        "percentage": "3.64"
+      },
+      "4": {
+        "count": 621,
+        "percentage": "6.21"
+      },
+      "5": {
+        "count": 88,
+        "percentage": "0.88"
+      },
+      "6": {
+        "count": 501,
+        "percentage": "5.01"
+      },
+      "7": {
+        "count": 201,
+        "percentage": "2.01"
+      },
+      "8": {
+        "count": 1239,
+        "percentage": "12.40"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1688,
+        "percentage": "16.89"
+      },
+      "11": {
+        "count": 108,
+        "percentage": "1.08"
+      },
+      "12": {
+        "count": 2043,
+        "percentage": "20.44"
+      }
+    },
+    "2030": {
+      "0": {
+        "count": 1717,
+        "percentage": "23.25"
+      },
+      "1": {
+        "count": 242,
+        "percentage": "3.28"
+      },
+      "2": {
+        "count": 421,
+        "percentage": "5.70"
+      },
+      "3": {
+        "count": 252,
+        "percentage": "3.41"
+      },
+      "4": {
+        "count": 514,
+        "percentage": "6.96"
+      },
+      "5": {
+        "count": 57,
+        "percentage": "0.77"
+      },
+      "6": {
+        "count": 276,
+        "percentage": "3.74"
+      },
+      "7": {
+        "count": 304,
+        "percentage": "4.12"
+      },
+      "8": {
+        "count": 792,
+        "percentage": "10.72"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1168,
+        "percentage": "15.81"
+      },
+      "11": {
+        "count": 66,
+        "percentage": "0.89"
+      },
+      "12": {
+        "count": 1577,
+        "percentage": "21.35"
+      }
+    },
+    "2031": {
+      "0": {
+        "count": 1318,
+        "percentage": "23.18"
+      },
+      "1": {
+        "count": 164,
+        "percentage": "2.88"
+      },
+      "2": {
+        "count": 311,
+        "percentage": "5.47"
+      },
+      "3": {
+        "count": 182,
+        "percentage": "3.20"
+      },
+      "4": {
+        "count": 452,
+        "percentage": "7.95"
+      },
+      "5": {
+        "count": 46,
+        "percentage": "0.81"
+      },
+      "6": {
+        "count": 221,
+        "percentage": "3.89"
+      },
+      "7": {
+        "count": 193,
+        "percentage": "3.39"
+      },
+      "8": {
+        "count": 628,
+        "percentage": "11.04"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 898,
+        "percentage": "15.79"
+      },
+      "11": {
+        "count": 56,
+        "percentage": "0.98"
+      },
+      "12": {
+        "count": 1218,
+        "percentage": "21.42"
+      }
+    },
+    "2032": {
+      "0": {
+        "count": 1155,
+        "percentage": "22.86"
+      },
+      "1": {
+        "count": 150,
+        "percentage": "2.97"
+      },
+      "2": {
+        "count": 327,
+        "percentage": "6.47"
+      },
+      "3": {
+        "count": 235,
+        "percentage": "4.65"
+      },
+      "4": {
+        "count": 362,
+        "percentage": "7.16"
+      },
+      "5": {
+        "count": 52,
+        "percentage": "1.03"
+      },
+      "6": {
+        "count": 197,
+        "percentage": "3.90"
+      },
+      "7": {
+        "count": 119,
+        "percentage": "2.36"
+      },
+      "8": {
+        "count": 552,
+        "percentage": "10.92"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 729,
+        "percentage": "14.43"
+      },
+      "11": {
+        "count": 64,
+        "percentage": "1.27"
+      },
+      "12": {
+        "count": 1111,
+        "percentage": "21.99"
+      }
+    },
+    "2033": {
+      "0": {
+        "count": 940,
+        "percentage": "23.16"
+      },
+      "1": {
+        "count": 120,
+        "percentage": "2.96"
+      },
+      "2": {
+        "count": 246,
+        "percentage": "6.06"
+      },
+      "3": {
+        "count": 151,
+        "percentage": "3.72"
+      },
+      "4": {
+        "count": 364,
+        "percentage": "8.97"
+      },
+      "5": {
+        "count": 32,
+        "percentage": "0.79"
+      },
+      "6": {
+        "count": 150,
+        "percentage": "3.70"
+      },
+      "7": {
+        "count": 84,
+        "percentage": "2.07"
+      },
+      "8": {
+        "count": 408,
+        "percentage": "10.05"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 672,
+        "percentage": "16.56"
+      },
+      "11": {
+        "count": 27,
+        "percentage": "0.67"
+      },
+      "12": {
+        "count": 865,
+        "percentage": "21.31"
+      }
+    },
+    "2034": {
+      "0": {
+        "count": 746,
+        "percentage": "22.88"
+      },
+      "1": {
+        "count": 89,
+        "percentage": "2.73"
+      },
+      "2": {
+        "count": 275,
+        "percentage": "8.44"
+      },
+      "3": {
+        "count": 157,
+        "percentage": "4.82"
+      },
+      "4": {
+        "count": 253,
+        "percentage": "7.76"
+      },
+      "5": {
+        "count": 39,
+        "percentage": "1.20"
+      },
+      "6": {
+        "count": 107,
+        "percentage": "3.28"
+      },
+      "7": {
+        "count": 86,
+        "percentage": "2.64"
+      },
+      "8": {
+        "count": 298,
+        "percentage": "9.14"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 475,
+        "percentage": "14.57"
+      },
+      "11": {
+        "count": 41,
+        "percentage": "1.26"
+      },
+      "12": {
+        "count": 694,
+        "percentage": "21.29"
+      }
+    },
+    "2035": {
+      "0": {
+        "count": 598,
+        "percentage": "23.27"
+      },
+      "1": {
+        "count": 89,
+        "percentage": "3.46"
+      },
+      "2": {
+        "count": 189,
+        "percentage": "7.35"
+      },
+      "3": {
+        "count": 96,
+        "percentage": "3.74"
+      },
+      "4": {
+        "count": 167,
+        "percentage": "6.50"
+      },
+      "5": {
+        "count": 28,
+        "percentage": "1.09"
+      },
+      "6": {
+        "count": 110,
+        "percentage": "4.28"
+      },
+      "7": {
+        "count": 40,
+        "percentage": "1.56"
+      },
+      "8": {
+        "count": 247,
+        "percentage": "9.61"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 411,
+        "percentage": "15.99"
+      },
+      "11": {
+        "count": 28,
+        "percentage": "1.09"
+      },
+      "12": {
+        "count": 567,
+        "percentage": "22.06"
+      }
+    },
+    "2036": {
+      "0": {
+        "count": 356,
+        "percentage": "23.27"
+      },
+      "1": {
+        "count": 51,
+        "percentage": "3.33"
+      },
+      "2": {
+        "count": 114,
+        "percentage": "7.45"
+      },
+      "3": {
+        "count": 82,
+        "percentage": "5.36"
+      },
+      "4": {
+        "count": 119,
+        "percentage": "7.78"
+      },
+      "5": {
+        "count": 13,
+        "percentage": "0.85"
+      },
+      "6": {
+        "count": 54,
+        "percentage": "3.53"
+      },
+      "7": {
+        "count": 39,
+        "percentage": "2.55"
+      },
+      "8": {
+        "count": 129,
+        "percentage": "8.43"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 224,
+        "percentage": "14.64"
+      },
+      "11": {
+        "count": 18,
+        "percentage": "1.18"
+      },
+      "12": {
+        "count": 331,
+        "percentage": "21.63"
+      }
+    },
+    "2037": {
+      "0": {
+        "count": 279,
+        "percentage": "22.76"
+      },
+      "1": {
+        "count": 45,
+        "percentage": "3.67"
+      },
+      "2": {
+        "count": 95,
+        "percentage": "7.75"
+      },
+      "3": {
+        "count": 54,
+        "percentage": "4.40"
+      },
+      "4": {
+        "count": 105,
+        "percentage": "8.56"
+      },
+      "5": {
+        "count": 13,
+        "percentage": "1.06"
+      },
+      "6": {
+        "count": 41,
+        "percentage": "3.34"
+      },
+      "7": {
+        "count": 30,
+        "percentage": "2.45"
+      },
+      "8": {
+        "count": 112,
+        "percentage": "9.14"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 189,
+        "percentage": "15.42"
+      },
+      "11": {
+        "count": 11,
+        "percentage": "0.90"
+      },
+      "12": {
+        "count": 252,
+        "percentage": "20.55"
+      }
+    },
+    "2038": {
+      "0": {
+        "count": 212,
+        "percentage": "23.56"
+      },
+      "1": {
+        "count": 40,
+        "percentage": "4.44"
+      },
+      "2": {
+        "count": 62,
+        "percentage": "6.89"
+      },
+      "3": {
+        "count": 45,
+        "percentage": "5.00"
+      },
+      "4": {
+        "count": 75,
+        "percentage": "8.33"
+      },
+      "5": {
+        "count": 9,
+        "percentage": "1.00"
+      },
+      "6": {
+        "count": 16,
+        "percentage": "1.78"
+      },
+      "7": {
+        "count": 40,
+        "percentage": "4.44"
+      },
+      "8": {
+        "count": 68,
+        "percentage": "7.56"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 127,
+        "percentage": "14.11"
+      },
+      "11": {
+        "count": 14,
+        "percentage": "1.56"
+      },
+      "12": {
+        "count": 192,
+        "percentage": "21.33"
+      }
+    },
+    "2039": {
+      "0": {
+        "count": 155,
+        "percentage": "23.56"
+      },
+      "1": {
+        "count": 29,
+        "percentage": "4.41"
+      },
+      "2": {
+        "count": 57,
+        "percentage": "8.66"
+      },
+      "3": {
+        "count": 30,
+        "percentage": "4.56"
+      },
+      "4": {
+        "count": 49,
+        "percentage": "7.45"
+      },
+      "5": {
+        "count": 4,
+        "percentage": "0.61"
+      },
+      "6": {
+        "count": 24,
+        "percentage": "3.65"
+      },
+      "7": {
+        "count": 28,
+        "percentage": "4.26"
+      },
+      "8": {
+        "count": 58,
+        "percentage": "8.81"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 78,
+        "percentage": "11.85"
+      },
+      "11": {
+        "count": 8,
+        "percentage": "1.22"
+      },
+      "12": {
+        "count": 138,
+        "percentage": "20.97"
+      }
+    },
+    "2040": {
+      "0": {
+        "count": 78,
+        "percentage": "23.15"
+      },
+      "1": {
+        "count": 18,
+        "percentage": "5.34"
+      },
+      "2": {
+        "count": 39,
+        "percentage": "11.57"
+      },
+      "3": {
+        "count": 16,
+        "percentage": "4.75"
+      },
+      "4": {
+        "count": 17,
+        "percentage": "5.04"
+      },
+      "5": {
+        "count": 4,
+        "percentage": "1.19"
+      },
+      "6": {
+        "count": 12,
+        "percentage": "3.56"
+      },
+      "7": {
+        "count": 7,
+        "percentage": "2.08"
+      },
+      "8": {
+        "count": 26,
+        "percentage": "7.72"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 55,
+        "percentage": "16.32"
+      },
+      "11": {
+        "count": 4,
+        "percentage": "1.19"
+      },
+      "12": {
+        "count": 61,
+        "percentage": "18.10"
+      }
+    },
+    "2041": {
+      "0": {
+        "count": 60,
+        "percentage": "23.08"
+      },
+      "1": {
+        "count": 13,
+        "percentage": "5.00"
+      },
+      "2": {
+        "count": 27,
+        "percentage": "10.38"
+      },
+      "3": {
+        "count": 11,
+        "percentage": "4.23"
+      },
+      "4": {
+        "count": 16,
+        "percentage": "6.15"
+      },
+      "5": {
+        "count": 3,
+        "percentage": "1.15"
+      },
+      "6": {
+        "count": 10,
+        "percentage": "3.85"
+      },
+      "7": {
+        "count": 9,
+        "percentage": "3.46"
+      },
+      "8": {
+        "count": 22,
+        "percentage": "8.46"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 34,
+        "percentage": "13.08"
+      },
+      "11": {
+        "count": 3,
+        "percentage": "1.15"
+      },
+      "12": {
+        "count": 52,
+        "percentage": "20.00"
+      }
+    },
+    "2042": {
+      "0": {
+        "count": 48,
+        "percentage": "22.86"
+      },
+      "1": {
+        "count": 8,
+        "percentage": "3.81"
+      },
+      "2": {
+        "count": 23,
+        "percentage": "10.95"
+      },
+      "3": {
+        "count": 13,
+        "percentage": "6.19"
+      },
+      "4": {
+        "count": 13,
+        "percentage": "6.19"
+      },
+      "5": {
+        "count": 4,
+        "percentage": "1.90"
+      },
+      "6": {
+        "count": 9,
+        "percentage": "4.29"
+      },
+      "7": {
+        "count": 7,
+        "percentage": "3.33"
+      },
+      "8": {
+        "count": 10,
+        "percentage": "4.76"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 29,
+        "percentage": "13.81"
+      },
+      "11": {
+        "count": 1,
+        "percentage": "0.48"
+      },
+      "12": {
+        "count": 45,
+        "percentage": "21.43"
+      }
+    },
+    "2043": {
+      "0": {
+        "count": 39,
+        "percentage": "23.08"
+      },
+      "1": {
+        "count": 5,
+        "percentage": "2.96"
+      },
+      "2": {
+        "count": 26,
+        "percentage": "15.38"
+      },
+      "3": {
+        "count": 12,
+        "percentage": "7.10"
+      },
+      "4": {
+        "count": 10,
+        "percentage": "5.92"
+      },
+      "5": {
+        "count": 6,
+        "percentage": "3.55"
+      },
+      "6": {
+        "count": 6,
+        "percentage": "3.55"
+      },
+      "7": {
+        "count": 6,
+        "percentage": "3.55"
+      },
+      "8": {
+        "count": 10,
+        "percentage": "5.92"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 16,
+        "percentage": "9.47"
+      },
+      "11": {
+        "count": 1,
+        "percentage": "0.59"
+      },
+      "12": {
+        "count": 32,
+        "percentage": "18.93"
+      }
+    },
+    "2044": {
+      "0": {
+        "count": 22,
+        "percentage": "20.95"
+      },
+      "1": {
+        "count": 6,
+        "percentage": "5.71"
+      },
+      "2": {
+        "count": 18,
+        "percentage": "17.14"
+      },
+      "3": {
+        "count": 6,
+        "percentage": "5.71"
+      },
+      "4": {
+        "count": 7,
+        "percentage": "6.67"
+      },
+      "5": {
+        "count": 5,
+        "percentage": "4.76"
+      },
+      "6": {
+        "count": 3,
+        "percentage": "2.86"
+      },
+      "7": {
+        "count": 3,
+        "percentage": "2.86"
+      },
+      "8": {
+        "count": 7,
+        "percentage": "6.67"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 9,
+        "percentage": "8.57"
+      },
+      "11": {
+        "count": 1,
+        "percentage": "0.95"
+      },
+      "12": {
+        "count": 18,
+        "percentage": "17.14"
+      }
+    },
+    "2045": {
+      "0": {
+        "count": 27,
+        "percentage": "21.95"
+      },
+      "1": {
+        "count": 4,
+        "percentage": "3.25"
+      },
+      "2": {
+        "count": 18,
+        "percentage": "14.63"
+      },
+      "3": {
+        "count": 11,
+        "percentage": "8.94"
+      },
+      "4": {
+        "count": 8,
+        "percentage": "6.50"
+      },
+      "5": {
+        "count": 4,
+        "percentage": "3.25"
+      },
+      "6": {
+        "count": 4,
+        "percentage": "3.25"
+      },
+      "7": {
+        "count": 5,
+        "percentage": "4.07"
+      },
+      "8": {
+        "count": 3,
+        "percentage": "2.44"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 17,
+        "percentage": "13.82"
+      },
+      "11": {
+        "count": 1,
+        "percentage": "0.81"
+      },
+      "12": {
+        "count": 21,
+        "percentage": "17.07"
+      }
+    },
+    "2046": {
+      "0": {
+        "count": 12,
+        "percentage": "21.43"
+      },
+      "1": {
+        "count": 4,
+        "percentage": "7.14"
+      },
+      "2": {
+        "count": 5,
+        "percentage": "8.93"
+      },
+      "3": {
+        "count": 6,
+        "percentage": "10.71"
+      },
+      "4": {
+        "count": 4,
+        "percentage": "7.14"
+      },
+      "5": {
+        "count": 2,
+        "percentage": "3.57"
+      },
+      "6": {
+        "count": 2,
+        "percentage": "3.57"
+      },
+      "7": {
+        "count": 3,
+        "percentage": "5.36"
+      },
+      "8": {
+        "count": 5,
+        "percentage": "8.93"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 3,
+        "percentage": "5.36"
+      },
+      "11": {
+        "count": 2,
+        "percentage": "3.57"
+      },
+      "12": {
+        "count": 8,
+        "percentage": "14.29"
+      }
+    },
+    "2047": {
+      "0": {
+        "count": 12,
+        "percentage": "21.43"
+      },
+      "1": {
+        "count": 5,
+        "percentage": "8.93"
+      },
+      "2": {
+        "count": 5,
+        "percentage": "8.93"
+      },
+      "3": {
+        "count": 3,
+        "percentage": "5.36"
+      },
+      "4": {
+        "count": 5,
+        "percentage": "8.93"
+      },
+      "5": {
+        "count": 3,
+        "percentage": "5.36"
+      },
+      "6": {
+        "count": 3,
+        "percentage": "5.36"
+      },
+      "7": {
+        "count": 2,
+        "percentage": "3.57"
+      },
+      "8": {
+        "count": 3,
+        "percentage": "5.36"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 6,
+        "percentage": "10.71"
+      },
+      "11": {
+        "count": 1,
+        "percentage": "1.79"
+      },
+      "12": {
+        "count": 8,
+        "percentage": "14.29"
+      }
+    },
+    "2048": {
+      "0": {
+        "count": 10,
+        "percentage": "20.83"
+      },
+      "1": {
+        "count": 3,
+        "percentage": "6.25"
+      },
+      "2": {
+        "count": 4,
+        "percentage": "8.33"
+      },
+      "3": {
+        "count": 4,
+        "percentage": "8.33"
+      },
+      "4": {
+        "count": 5,
+        "percentage": "10.42"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "2.08"
+      },
+      "6": {
+        "count": 2,
+        "percentage": "4.17"
+      },
+      "7": {
+        "count": 4,
+        "percentage": "8.33"
+      },
+      "8": {
+        "count": 3,
+        "percentage": "6.25"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 4,
+        "percentage": "8.33"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 8,
+        "percentage": "16.67"
+      }
+    },
+    "2049": {
+      "0": {
+        "count": 8,
+        "percentage": "18.60"
+      },
+      "1": {
+        "count": 3,
+        "percentage": "6.98"
+      },
+      "2": {
+        "count": 4,
+        "percentage": "9.30"
+      },
+      "3": {
+        "count": 5,
+        "percentage": "11.63"
+      },
+      "4": {
+        "count": 3,
+        "percentage": "6.98"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "2.33"
+      },
+      "6": {
+        "count": 2,
+        "percentage": "4.65"
+      },
+      "7": {
+        "count": 4,
+        "percentage": "9.30"
+      },
+      "8": {
+        "count": 3,
+        "percentage": "6.98"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 2,
+        "percentage": "4.65"
+      },
+      "11": {
+        "count": 1,
+        "percentage": "2.33"
+      },
+      "12": {
+        "count": 7,
+        "percentage": "16.28"
+      }
+    },
+    "2050": {
+      "0": {
+        "count": 5,
+        "percentage": "23.81"
+      },
+      "1": {
+        "count": 2,
+        "percentage": "9.52"
+      },
+      "2": {
+        "count": 2,
+        "percentage": "9.52"
+      },
+      "3": {
+        "count": 2,
+        "percentage": "9.52"
+      },
+      "4": {
+        "count": 1,
+        "percentage": "4.76"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "4.76"
+      },
+      "6": {
+        "count": 2,
+        "percentage": "9.52"
+      },
+      "7": {
+        "count": 1,
+        "percentage": "4.76"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1,
+        "percentage": "4.76"
+      },
+      "11": {
+        "count": 1,
+        "percentage": "4.76"
+      },
+      "12": {
+        "count": 3,
+        "percentage": "14.29"
+      }
+    },
+    "2051": {
+      "0": {
+        "count": 5,
+        "percentage": "21.74"
+      },
+      "1": {
+        "count": 2,
+        "percentage": "8.70"
+      },
+      "2": {
+        "count": 3,
+        "percentage": "13.04"
+      },
+      "3": {
+        "count": 1,
+        "percentage": "4.35"
+      },
+      "4": {
+        "count": 1,
+        "percentage": "4.35"
+      },
+      "5": {
+        "count": 2,
+        "percentage": "8.70"
+      },
+      "6": {
+        "count": 3,
+        "percentage": "13.04"
+      },
+      "7": {
+        "count": 1,
+        "percentage": "4.35"
+      },
+      "8": {
+        "count": 1,
+        "percentage": "4.35"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1,
+        "percentage": "4.35"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 3,
+        "percentage": "13.04"
+      }
+    },
+    "2052": {
+      "0": {
+        "count": 3,
+        "percentage": "16.67"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "5.56"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "5.56"
+      },
+      "3": {
+        "count": 3,
+        "percentage": "16.67"
+      },
+      "4": {
+        "count": 1,
+        "percentage": "5.56"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "5.56"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "5.56"
+      },
+      "7": {
+        "count": 1,
+        "percentage": "5.56"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 3,
+        "percentage": "16.67"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 3,
+        "percentage": "16.67"
+      }
+    },
+    "2053": {
+      "0": {
+        "count": 4,
+        "percentage": "20.00"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "5.00"
+      },
+      "2": {
+        "count": 3,
+        "percentage": "15.00"
+      },
+      "3": {
+        "count": 1,
+        "percentage": "5.00"
+      },
+      "4": {
+        "count": 1,
+        "percentage": "5.00"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "5.00"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "5.00"
+      },
+      "7": {
+        "count": 1,
+        "percentage": "5.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 3,
+        "percentage": "15.00"
+      },
+      "11": {
+        "count": 1,
+        "percentage": "5.00"
+      },
+      "12": {
+        "count": 3,
+        "percentage": "15.00"
+      }
+    },
+    "2054": {
+      "0": {
+        "count": 3,
+        "percentage": "21.43"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "7.14"
+      },
+      "2": {
+        "count": 2,
+        "percentage": "14.29"
+      },
+      "3": {
+        "count": 1,
+        "percentage": "7.14"
+      },
+      "4": {
+        "count": 1,
+        "percentage": "7.14"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "7.14"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "7.14"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 2,
+        "percentage": "14.29"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 2,
+        "percentage": "14.29"
+      }
+    },
+    "2055": {
+      "0": {
+        "count": 3,
+        "percentage": "20.00"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "6.67"
+      },
+      "2": {
+        "count": 3,
+        "percentage": "20.00"
+      },
+      "3": {
+        "count": 1,
+        "percentage": "6.67"
+      },
+      "4": {
+        "count": 1,
+        "percentage": "6.67"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "6.67"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "6.67"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 2,
+        "percentage": "13.33"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 2,
+        "percentage": "13.33"
+      }
+    },
+    "2056": {
+      "0": {
+        "count": 1,
+        "percentage": "20.00"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "20.00"
+      },
+      "2": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "20.00"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "20.00"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 1,
+        "percentage": "20.00"
+      }
+    },
+    "2057": {
+      "0": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "25.00"
+      },
+      "2": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "25.00"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "25.00"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 1,
+        "percentage": "25.00"
+      }
+    },
+    "2058": {
+      "0": {
+        "count": 1,
+        "percentage": "20.00"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "20.00"
+      },
+      "2": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "20.00"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "20.00"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 1,
+        "percentage": "20.00"
+      }
+    },
+    "3001": {
+      "0": {
+        "count": 21108,
+        "percentage": "24.61"
+      },
+      "1": {
+        "count": 11040,
+        "percentage": "12.87"
+      },
+      "2": {
+        "count": 11897,
+        "percentage": "13.87"
+      },
+      "3": {
+        "count": 9437,
+        "percentage": "11.00"
+      },
+      "4": {
+        "count": 5372,
+        "percentage": "6.26"
+      },
+      "5": {
+        "count": 11779,
+        "percentage": "13.73"
+      },
+      "6": {
+        "count": 10598,
+        "percentage": "12.36"
+      },
+      "7": {
+        "count": 2365,
+        "percentage": "2.76"
+      },
+      "8": {
+        "count": 1490,
+        "percentage": "1.74"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 483,
+        "percentage": "0.56"
+      },
+      "11": {
+        "count": 109,
+        "percentage": "0.13"
+      },
+      "12": {
+        "count": 93,
+        "percentage": "0.11"
+      }
+    },
+    "3002": {
+      "0": {
+        "count": 16683,
+        "percentage": "24.94"
+      },
+      "1": {
+        "count": 7888,
+        "percentage": "11.79"
+      },
+      "2": {
+        "count": 8239,
+        "percentage": "12.32"
+      },
+      "3": {
+        "count": 6315,
+        "percentage": "9.44"
+      },
+      "4": {
+        "count": 3446,
+        "percentage": "5.15"
+      },
+      "5": {
+        "count": 8325,
+        "percentage": "12.44"
+      },
+      "6": {
+        "count": 10123,
+        "percentage": "15.13"
+      },
+      "7": {
+        "count": 3350,
+        "percentage": "5.01"
+      },
+      "8": {
+        "count": 1892,
+        "percentage": "2.83"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 511,
+        "percentage": "0.76"
+      },
+      "11": {
+        "count": 81,
+        "percentage": "0.12"
+      },
+      "12": {
+        "count": 45,
+        "percentage": "0.07"
+      }
+    },
+    "3003": {
+      "0": {
+        "count": 15279,
+        "percentage": "24.89"
+      },
+      "1": {
+        "count": 6892,
+        "percentage": "11.23"
+      },
+      "2": {
+        "count": 7080,
+        "percentage": "11.53"
+      },
+      "3": {
+        "count": 5605,
+        "percentage": "9.13"
+      },
+      "4": {
+        "count": 3211,
+        "percentage": "5.23"
+      },
+      "5": {
+        "count": 7220,
+        "percentage": "11.76"
+      },
+      "6": {
+        "count": 9287,
+        "percentage": "15.13"
+      },
+      "7": {
+        "count": 3683,
+        "percentage": "6.00"
+      },
+      "8": {
+        "count": 2337,
+        "percentage": "3.81"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 641,
+        "percentage": "1.04"
+      },
+      "11": {
+        "count": 85,
+        "percentage": "0.14"
+      },
+      "12": {
+        "count": 60,
+        "percentage": "0.10"
+      }
+    },
+    "3004": {
+      "0": {
+        "count": 14176,
+        "percentage": "24.94"
+      },
+      "1": {
+        "count": 6398,
+        "percentage": "11.26"
+      },
+      "2": {
+        "count": 6246,
+        "percentage": "10.99"
+      },
+      "3": {
+        "count": 4876,
+        "percentage": "8.58"
+      },
+      "4": {
+        "count": 2657,
+        "percentage": "4.68"
+      },
+      "5": {
+        "count": 6215,
+        "percentage": "10.94"
+      },
+      "6": {
+        "count": 8556,
+        "percentage": "15.06"
+      },
+      "7": {
+        "count": 4026,
+        "percentage": "7.08"
+      },
+      "8": {
+        "count": 2774,
+        "percentage": "4.88"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 756,
+        "percentage": "1.33"
+      },
+      "11": {
+        "count": 90,
+        "percentage": "0.16"
+      },
+      "12": {
+        "count": 61,
+        "percentage": "0.11"
+      }
+    },
+    "3005": {
+      "0": {
+        "count": 13310,
+        "percentage": "24.54"
+      },
+      "1": {
+        "count": 5595,
+        "percentage": "10.31"
+      },
+      "2": {
+        "count": 6055,
+        "percentage": "11.16"
+      },
+      "3": {
+        "count": 4506,
+        "percentage": "8.31"
+      },
+      "4": {
+        "count": 2295,
+        "percentage": "4.23"
+      },
+      "5": {
+        "count": 5389,
+        "percentage": "9.93"
+      },
+      "6": {
+        "count": 8210,
+        "percentage": "15.13"
+      },
+      "7": {
+        "count": 4365,
+        "percentage": "8.05"
+      },
+      "8": {
+        "count": 3448,
+        "percentage": "6.36"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 874,
+        "percentage": "1.61"
+      },
+      "11": {
+        "count": 121,
+        "percentage": "0.22"
+      },
+      "12": {
+        "count": 78,
+        "percentage": "0.14"
+      }
+    },
+    "3006": {
+      "0": {
+        "count": 12266,
+        "percentage": "24.83"
+      },
+      "1": {
+        "count": 4992,
+        "percentage": "10.10"
+      },
+      "2": {
+        "count": 5207,
+        "percentage": "10.54"
+      },
+      "3": {
+        "count": 4166,
+        "percentage": "8.43"
+      },
+      "4": {
+        "count": 1931,
+        "percentage": "3.91"
+      },
+      "5": {
+        "count": 4739,
+        "percentage": "9.59"
+      },
+      "6": {
+        "count": 7260,
+        "percentage": "14.69"
+      },
+      "7": {
+        "count": 3831,
+        "percentage": "7.75"
+      },
+      "8": {
+        "count": 3825,
+        "percentage": "7.74"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 983,
+        "percentage": "1.99"
+      },
+      "11": {
+        "count": 132,
+        "percentage": "0.27"
+      },
+      "12": {
+        "count": 76,
+        "percentage": "0.15"
+      }
+    },
+    "3007": {
+      "0": {
+        "count": 11727,
+        "percentage": "24.82"
+      },
+      "1": {
+        "count": 4640,
+        "percentage": "9.82"
+      },
+      "2": {
+        "count": 4920,
+        "percentage": "10.41"
+      },
+      "3": {
+        "count": 3667,
+        "percentage": "7.76"
+      },
+      "4": {
+        "count": 1834,
+        "percentage": "3.88"
+      },
+      "5": {
+        "count": 4358,
+        "percentage": "9.23"
+      },
+      "6": {
+        "count": 6708,
+        "percentage": "14.20"
+      },
+      "7": {
+        "count": 3680,
+        "percentage": "7.79"
+      },
+      "8": {
+        "count": 4307,
+        "percentage": "9.12"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1149,
+        "percentage": "2.43"
+      },
+      "11": {
+        "count": 167,
+        "percentage": "0.35"
+      },
+      "12": {
+        "count": 83,
+        "percentage": "0.18"
+      }
+    },
+    "3008": {
+      "0": {
+        "count": 11265,
+        "percentage": "24.55"
+      },
+      "1": {
+        "count": 3634,
+        "percentage": "7.92"
+      },
+      "2": {
+        "count": 5097,
+        "percentage": "11.11"
+      },
+      "3": {
+        "count": 3397,
+        "percentage": "7.40"
+      },
+      "4": {
+        "count": 1786,
+        "percentage": "3.89"
+      },
+      "5": {
+        "count": 3802,
+        "percentage": "8.29"
+      },
+      "6": {
+        "count": 6353,
+        "percentage": "13.85"
+      },
+      "7": {
+        "count": 3457,
+        "percentage": "7.53"
+      },
+      "8": {
+        "count": 5232,
+        "percentage": "11.40"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1544,
+        "percentage": "3.37"
+      },
+      "11": {
+        "count": 213,
+        "percentage": "0.46"
+      },
+      "12": {
+        "count": 103,
+        "percentage": "0.22"
+      }
+    },
+    "3009": {
+      "0": {
+        "count": 11525,
+        "percentage": "24.51"
+      },
+      "1": {
+        "count": 3783,
+        "percentage": "8.05"
+      },
+      "2": {
+        "count": 4521,
+        "percentage": "9.62"
+      },
+      "3": {
+        "count": 3532,
+        "percentage": "7.51"
+      },
+      "4": {
+        "count": 1886,
+        "percentage": "4.01"
+      },
+      "5": {
+        "count": 3331,
+        "percentage": "7.09"
+      },
+      "6": {
+        "count": 6500,
+        "percentage": "13.83"
+      },
+      "7": {
+        "count": 3373,
+        "percentage": "7.17"
+      },
+      "8": {
+        "count": 6026,
+        "percentage": "12.82"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 2166,
+        "percentage": "4.61"
+      },
+      "11": {
+        "count": 254,
+        "percentage": "0.54"
+      },
+      "12": {
+        "count": 116,
+        "percentage": "0.25"
+      }
+    },
+    "3010": {
+      "0": {
+        "count": 12649,
+        "percentage": "23.19"
+      },
+      "1": {
+        "count": 2206,
+        "percentage": "4.04"
+      },
+      "2": {
+        "count": 4970,
+        "percentage": "9.11"
+      },
+      "3": {
+        "count": 4299,
+        "percentage": "7.88"
+      },
+      "4": {
+        "count": 1504,
+        "percentage": "2.76"
+      },
+      "5": {
+        "count": 2607,
+        "percentage": "4.78"
+      },
+      "6": {
+        "count": 9164,
+        "percentage": "16.80"
+      },
+      "7": {
+        "count": 3394,
+        "percentage": "6.22"
+      },
+      "8": {
+        "count": 7829,
+        "percentage": "14.35"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 5099,
+        "percentage": "9.35"
+      },
+      "11": {
+        "count": 436,
+        "percentage": "0.80"
+      },
+      "12": {
+        "count": 386,
+        "percentage": "0.71"
+      }
+    },
+    "3011": {
+      "0": {
+        "count": 8548,
+        "percentage": "24.43"
+      },
+      "1": {
+        "count": 2074,
+        "percentage": "5.93"
+      },
+      "2": {
+        "count": 3117,
+        "percentage": "8.91"
+      },
+      "3": {
+        "count": 2382,
+        "percentage": "6.81"
+      },
+      "4": {
+        "count": 1244,
+        "percentage": "3.55"
+      },
+      "5": {
+        "count": 2026,
+        "percentage": "5.79"
+      },
+      "6": {
+        "count": 4881,
+        "percentage": "13.95"
+      },
+      "7": {
+        "count": 1918,
+        "percentage": "5.48"
+      },
+      "8": {
+        "count": 5016,
+        "percentage": "14.33"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 3240,
+        "percentage": "9.26"
+      },
+      "11": {
+        "count": 350,
+        "percentage": "1.00"
+      },
+      "12": {
+        "count": 198,
+        "percentage": "0.57"
+      }
+    },
+    "3012": {
+      "0": {
+        "count": 8562,
+        "percentage": "24.52"
+      },
+      "1": {
+        "count": 1897,
+        "percentage": "5.43"
+      },
+      "2": {
+        "count": 2942,
+        "percentage": "8.43"
+      },
+      "3": {
+        "count": 2354,
+        "percentage": "6.74"
+      },
+      "4": {
+        "count": 1284,
+        "percentage": "3.68"
+      },
+      "5": {
+        "count": 1836,
+        "percentage": "5.26"
+      },
+      "6": {
+        "count": 4833,
+        "percentage": "13.84"
+      },
+      "7": {
+        "count": 1691,
+        "percentage": "4.84"
+      },
+      "8": {
+        "count": 5131,
+        "percentage": "14.70"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 3758,
+        "percentage": "10.76"
+      },
+      "11": {
+        "count": 398,
+        "percentage": "1.14"
+      },
+      "12": {
+        "count": 230,
+        "percentage": "0.66"
+      }
+    },
+    "3013": {
+      "0": {
+        "count": 8086,
+        "percentage": "24.58"
+      },
+      "1": {
+        "count": 1529,
+        "percentage": "4.65"
+      },
+      "2": {
+        "count": 3090,
+        "percentage": "9.39"
+      },
+      "3": {
+        "count": 2075,
+        "percentage": "6.31"
+      },
+      "4": {
+        "count": 1104,
+        "percentage": "3.36"
+      },
+      "5": {
+        "count": 1734,
+        "percentage": "5.27"
+      },
+      "6": {
+        "count": 4375,
+        "percentage": "13.30"
+      },
+      "7": {
+        "count": 1456,
+        "percentage": "4.43"
+      },
+      "8": {
+        "count": 5014,
+        "percentage": "15.24"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 3663,
+        "percentage": "11.13"
+      },
+      "11": {
+        "count": 528,
+        "percentage": "1.60"
+      },
+      "12": {
+        "count": 248,
+        "percentage": "0.75"
+      }
+    },
+    "3014": {
+      "0": {
+        "count": 8205,
+        "percentage": "24.49"
+      },
+      "1": {
+        "count": 1676,
+        "percentage": "5.00"
+      },
+      "2": {
+        "count": 2978,
+        "percentage": "8.89"
+      },
+      "3": {
+        "count": 1989,
+        "percentage": "5.94"
+      },
+      "4": {
+        "count": 1182,
+        "percentage": "3.53"
+      },
+      "5": {
+        "count": 1647,
+        "percentage": "4.92"
+      },
+      "6": {
+        "count": 4385,
+        "percentage": "13.09"
+      },
+      "7": {
+        "count": 1487,
+        "percentage": "4.44"
+      },
+      "8": {
+        "count": 4963,
+        "percentage": "14.81"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 4090,
+        "percentage": "12.21"
+      },
+      "11": {
+        "count": 596,
+        "percentage": "1.78"
+      },
+      "12": {
+        "count": 302,
+        "percentage": "0.90"
+      }
+    },
+    "3015": {
+      "0": {
+        "count": 8655,
+        "percentage": "24.43"
+      },
+      "1": {
+        "count": 1211,
+        "percentage": "3.42"
+      },
+      "2": {
+        "count": 3126,
+        "percentage": "8.82"
+      },
+      "3": {
+        "count": 1742,
+        "percentage": "4.92"
+      },
+      "4": {
+        "count": 1175,
+        "percentage": "3.32"
+      },
+      "5": {
+        "count": 1081,
+        "percentage": "3.05"
+      },
+      "6": {
+        "count": 4774,
+        "percentage": "13.47"
+      },
+      "7": {
+        "count": 1385,
+        "percentage": "3.91"
+      },
+      "8": {
+        "count": 6073,
+        "percentage": "17.14"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 4886,
+        "percentage": "13.79"
+      },
+      "11": {
+        "count": 683,
+        "percentage": "1.93"
+      },
+      "12": {
+        "count": 640,
+        "percentage": "1.81"
+      }
+    },
+    "3016": {
+      "0": {
+        "count": 7957,
+        "percentage": "24.54"
+      },
+      "1": {
+        "count": 1110,
+        "percentage": "3.42"
+      },
+      "2": {
+        "count": 2517,
+        "percentage": "7.76"
+      },
+      "3": {
+        "count": 1734,
+        "percentage": "5.35"
+      },
+      "4": {
+        "count": 1404,
+        "percentage": "4.33"
+      },
+      "5": {
+        "count": 919,
+        "percentage": "2.83"
+      },
+      "6": {
+        "count": 3770,
+        "percentage": "11.62"
+      },
+      "7": {
+        "count": 1140,
+        "percentage": "3.52"
+      },
+      "8": {
+        "count": 5255,
+        "percentage": "16.20"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 5040,
+        "percentage": "15.54"
+      },
+      "11": {
+        "count": 687,
+        "percentage": "2.12"
+      },
+      "12": {
+        "count": 898,
+        "percentage": "2.77"
+      }
+    },
+    "3017": {
+      "0": {
+        "count": 6837,
+        "percentage": "24.41"
+      },
+      "1": {
+        "count": 858,
+        "percentage": "3.06"
+      },
+      "2": {
+        "count": 2917,
+        "percentage": "10.41"
+      },
+      "3": {
+        "count": 1433,
+        "percentage": "5.12"
+      },
+      "4": {
+        "count": 996,
+        "percentage": "3.56"
+      },
+      "5": {
+        "count": 1214,
+        "percentage": "4.33"
+      },
+      "6": {
+        "count": 2834,
+        "percentage": "10.12"
+      },
+      "7": {
+        "count": 914,
+        "percentage": "3.26"
+      },
+      "8": {
+        "count": 4232,
+        "percentage": "15.11"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 3914,
+        "percentage": "13.97"
+      },
+      "11": {
+        "count": 969,
+        "percentage": "3.46"
+      },
+      "12": {
+        "count": 894,
+        "percentage": "3.19"
+      }
+    },
+    "3018": {
+      "0": {
+        "count": 6156,
+        "percentage": "24.45"
+      },
+      "1": {
+        "count": 802,
+        "percentage": "3.19"
+      },
+      "2": {
+        "count": 2193,
+        "percentage": "8.71"
+      },
+      "3": {
+        "count": 1244,
+        "percentage": "4.94"
+      },
+      "4": {
+        "count": 1045,
+        "percentage": "4.15"
+      },
+      "5": {
+        "count": 584,
+        "percentage": "2.32"
+      },
+      "6": {
+        "count": 2327,
+        "percentage": "9.24"
+      },
+      "7": {
+        "count": 1394,
+        "percentage": "5.54"
+      },
+      "8": {
+        "count": 3775,
+        "percentage": "15.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 3729,
+        "percentage": "14.81"
+      },
+      "11": {
+        "count": 616,
+        "percentage": "2.45"
+      },
+      "12": {
+        "count": 1309,
+        "percentage": "5.20"
+      }
+    },
+    "3019": {
+      "0": {
+        "count": 6459,
+        "percentage": "24.29"
+      },
+      "1": {
+        "count": 675,
+        "percentage": "2.54"
+      },
+      "2": {
+        "count": 2617,
+        "percentage": "9.84"
+      },
+      "3": {
+        "count": 1366,
+        "percentage": "5.14"
+      },
+      "4": {
+        "count": 1005,
+        "percentage": "3.78"
+      },
+      "5": {
+        "count": 664,
+        "percentage": "2.50"
+      },
+      "6": {
+        "count": 2655,
+        "percentage": "9.99"
+      },
+      "7": {
+        "count": 962,
+        "percentage": "3.62"
+      },
+      "8": {
+        "count": 4024,
+        "percentage": "15.14"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 3795,
+        "percentage": "14.27"
+      },
+      "11": {
+        "count": 627,
+        "percentage": "2.36"
+      },
+      "12": {
+        "count": 1737,
+        "percentage": "6.53"
+      }
+    },
+    "3020": {
+      "0": {
+        "count": 6440,
+        "percentage": "24.17"
+      },
+      "1": {
+        "count": 448,
+        "percentage": "1.68"
+      },
+      "2": {
+        "count": 3243,
+        "percentage": "12.17"
+      },
+      "3": {
+        "count": 1277,
+        "percentage": "4.79"
+      },
+      "4": {
+        "count": 823,
+        "percentage": "3.09"
+      },
+      "5": {
+        "count": 586,
+        "percentage": "2.20"
+      },
+      "6": {
+        "count": 1980,
+        "percentage": "7.43"
+      },
+      "7": {
+        "count": 730,
+        "percentage": "2.74"
+      },
+      "8": {
+        "count": 3569,
+        "percentage": "13.40"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 3991,
+        "percentage": "14.98"
+      },
+      "11": {
+        "count": 494,
+        "percentage": "1.85"
+      },
+      "12": {
+        "count": 3060,
+        "percentage": "11.49"
+      }
+    },
+    "3021": {
+      "0": {
+        "count": 4734,
+        "percentage": "23.59"
+      },
+      "1": {
+        "count": 447,
+        "percentage": "2.23"
+      },
+      "2": {
+        "count": 1597,
+        "percentage": "7.96"
+      },
+      "3": {
+        "count": 1093,
+        "percentage": "5.45"
+      },
+      "4": {
+        "count": 661,
+        "percentage": "3.29"
+      },
+      "5": {
+        "count": 238,
+        "percentage": "1.19"
+      },
+      "6": {
+        "count": 1979,
+        "percentage": "9.86"
+      },
+      "7": {
+        "count": 1018,
+        "percentage": "5.07"
+      },
+      "8": {
+        "count": 2745,
+        "percentage": "13.68"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 2716,
+        "percentage": "13.53"
+      },
+      "11": {
+        "count": 292,
+        "percentage": "1.46"
+      },
+      "12": {
+        "count": 2548,
+        "percentage": "12.70"
+      }
+    },
+    "3022": {
+      "0": {
+        "count": 3979,
+        "percentage": "23.99"
+      },
+      "1": {
+        "count": 436,
+        "percentage": "2.63"
+      },
+      "2": {
+        "count": 1549,
+        "percentage": "9.34"
+      },
+      "3": {
+        "count": 719,
+        "percentage": "4.34"
+      },
+      "4": {
+        "count": 650,
+        "percentage": "3.92"
+      },
+      "5": {
+        "count": 308,
+        "percentage": "1.86"
+      },
+      "6": {
+        "count": 1206,
+        "percentage": "7.27"
+      },
+      "7": {
+        "count": 717,
+        "percentage": "4.32"
+      },
+      "8": {
+        "count": 2135,
+        "percentage": "12.87"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 2308,
+        "percentage": "13.92"
+      },
+      "11": {
+        "count": 312,
+        "percentage": "1.88"
+      },
+      "12": {
+        "count": 2264,
+        "percentage": "13.65"
+      }
+    },
+    "3023": {
+      "0": {
+        "count": 3809,
+        "percentage": "24.04"
+      },
+      "1": {
+        "count": 325,
+        "percentage": "2.05"
+      },
+      "2": {
+        "count": 1206,
+        "percentage": "7.61"
+      },
+      "3": {
+        "count": 618,
+        "percentage": "3.90"
+      },
+      "4": {
+        "count": 643,
+        "percentage": "4.06"
+      },
+      "5": {
+        "count": 191,
+        "percentage": "1.21"
+      },
+      "6": {
+        "count": 1150,
+        "percentage": "7.26"
+      },
+      "7": {
+        "count": 521,
+        "percentage": "3.29"
+      },
+      "8": {
+        "count": 2246,
+        "percentage": "14.18"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 2306,
+        "percentage": "14.56"
+      },
+      "11": {
+        "count": 198,
+        "percentage": "1.25"
+      },
+      "12": {
+        "count": 2630,
+        "percentage": "16.60"
+      }
+    },
+    "3024": {
+      "0": {
+        "count": 4089,
+        "percentage": "24.29"
+      },
+      "1": {
+        "count": 425,
+        "percentage": "2.52"
+      },
+      "2": {
+        "count": 1235,
+        "percentage": "7.34"
+      },
+      "3": {
+        "count": 634,
+        "percentage": "3.77"
+      },
+      "4": {
+        "count": 685,
+        "percentage": "4.07"
+      },
+      "5": {
+        "count": 279,
+        "percentage": "1.66"
+      },
+      "6": {
+        "count": 1090,
+        "percentage": "6.47"
+      },
+      "7": {
+        "count": 565,
+        "percentage": "3.36"
+      },
+      "8": {
+        "count": 2188,
+        "percentage": "13.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 2551,
+        "percentage": "15.15"
+      },
+      "11": {
+        "count": 310,
+        "percentage": "1.84"
+      },
+      "12": {
+        "count": 2783,
+        "percentage": "16.53"
+      }
+    },
+    "3025": {
+      "0": {
+        "count": 2850,
+        "percentage": "24.67"
+      },
+      "1": {
+        "count": 263,
+        "percentage": "2.28"
+      },
+      "2": {
+        "count": 649,
+        "percentage": "5.62"
+      },
+      "3": {
+        "count": 411,
+        "percentage": "3.56"
+      },
+      "4": {
+        "count": 453,
+        "percentage": "3.92"
+      },
+      "5": {
+        "count": 117,
+        "percentage": "1.01"
+      },
+      "6": {
+        "count": 808,
+        "percentage": "7.00"
+      },
+      "7": {
+        "count": 190,
+        "percentage": "1.64"
+      },
+      "8": {
+        "count": 1717,
+        "percentage": "14.86"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 2181,
+        "percentage": "18.88"
+      },
+      "11": {
+        "count": 110,
+        "percentage": "0.95"
+      },
+      "12": {
+        "count": 1802,
+        "percentage": "15.60"
+      }
+    },
+    "3026": {
+      "0": {
+        "count": 2905,
+        "percentage": "24.11"
+      },
+      "1": {
+        "count": 351,
+        "percentage": "2.91"
+      },
+      "2": {
+        "count": 709,
+        "percentage": "5.88"
+      },
+      "3": {
+        "count": 340,
+        "percentage": "2.82"
+      },
+      "4": {
+        "count": 613,
+        "percentage": "5.09"
+      },
+      "5": {
+        "count": 98,
+        "percentage": "0.81"
+      },
+      "6": {
+        "count": 604,
+        "percentage": "5.01"
+      },
+      "7": {
+        "count": 487,
+        "percentage": "4.04"
+      },
+      "8": {
+        "count": 1546,
+        "percentage": "12.83"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1874,
+        "percentage": "15.55"
+      },
+      "11": {
+        "count": 171,
+        "percentage": "1.42"
+      },
+      "12": {
+        "count": 2350,
+        "percentage": "19.51"
+      }
+    },
+    "3027": {
+      "0": {
+        "count": 2093,
+        "percentage": "24.25"
+      },
+      "1": {
+        "count": 201,
+        "percentage": "2.33"
+      },
+      "2": {
+        "count": 606,
+        "percentage": "7.02"
+      },
+      "3": {
+        "count": 297,
+        "percentage": "3.44"
+      },
+      "4": {
+        "count": 464,
+        "percentage": "5.38"
+      },
+      "5": {
+        "count": 89,
+        "percentage": "1.03"
+      },
+      "6": {
+        "count": 423,
+        "percentage": "4.90"
+      },
+      "7": {
+        "count": 194,
+        "percentage": "2.25"
+      },
+      "8": {
+        "count": 1121,
+        "percentage": "12.99"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1441,
+        "percentage": "16.70"
+      },
+      "11": {
+        "count": 106,
+        "percentage": "1.23"
+      },
+      "12": {
+        "count": 1596,
+        "percentage": "18.49"
+      }
+    },
+    "3028": {
+      "0": {
+        "count": 1949,
+        "percentage": "23.97"
+      },
+      "1": {
+        "count": 202,
+        "percentage": "2.48"
+      },
+      "2": {
+        "count": 518,
+        "percentage": "6.37"
+      },
+      "3": {
+        "count": 295,
+        "percentage": "3.63"
+      },
+      "4": {
+        "count": 492,
+        "percentage": "6.05"
+      },
+      "5": {
+        "count": 74,
+        "percentage": "0.91"
+      },
+      "6": {
+        "count": 335,
+        "percentage": "4.12"
+      },
+      "7": {
+        "count": 175,
+        "percentage": "2.15"
+      },
+      "8": {
+        "count": 951,
+        "percentage": "11.69"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1305,
+        "percentage": "16.05"
+      },
+      "11": {
+        "count": 104,
+        "percentage": "1.28"
+      },
+      "12": {
+        "count": 1732,
+        "percentage": "21.30"
+      }
+    },
+    "3029": {
+      "0": {
+        "count": 1858,
+        "percentage": "24.18"
+      },
+      "1": {
+        "count": 204,
+        "percentage": "2.66"
+      },
+      "2": {
+        "count": 390,
+        "percentage": "5.08"
+      },
+      "3": {
+        "count": 279,
+        "percentage": "3.63"
+      },
+      "4": {
+        "count": 532,
+        "percentage": "6.92"
+      },
+      "5": {
+        "count": 85,
+        "percentage": "1.11"
+      },
+      "6": {
+        "count": 327,
+        "percentage": "4.26"
+      },
+      "7": {
+        "count": 154,
+        "percentage": "2.00"
+      },
+      "8": {
+        "count": 880,
+        "percentage": "11.45"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1312,
+        "percentage": "17.08"
+      },
+      "11": {
+        "count": 83,
+        "percentage": "1.08"
+      },
+      "12": {
+        "count": 1579,
+        "percentage": "20.55"
+      }
+    },
+    "3030": {
+      "0": {
+        "count": 1299,
+        "percentage": "23.55"
+      },
+      "1": {
+        "count": 166,
+        "percentage": "3.01"
+      },
+      "2": {
+        "count": 281,
+        "percentage": "5.09"
+      },
+      "3": {
+        "count": 199,
+        "percentage": "3.61"
+      },
+      "4": {
+        "count": 432,
+        "percentage": "7.83"
+      },
+      "5": {
+        "count": 47,
+        "percentage": "0.85"
+      },
+      "6": {
+        "count": 178,
+        "percentage": "3.23"
+      },
+      "7": {
+        "count": 183,
+        "percentage": "3.32"
+      },
+      "8": {
+        "count": 587,
+        "percentage": "10.64"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 902,
+        "percentage": "16.35"
+      },
+      "11": {
+        "count": 51,
+        "percentage": "0.92"
+      },
+      "12": {
+        "count": 1191,
+        "percentage": "21.59"
+      }
+    },
+    "3031": {
+      "0": {
+        "count": 1016,
+        "percentage": "23.81"
+      },
+      "1": {
+        "count": 149,
+        "percentage": "3.49"
+      },
+      "2": {
+        "count": 214,
+        "percentage": "5.01"
+      },
+      "3": {
+        "count": 156,
+        "percentage": "3.66"
+      },
+      "4": {
+        "count": 347,
+        "percentage": "8.13"
+      },
+      "5": {
+        "count": 26,
+        "percentage": "0.61"
+      },
+      "6": {
+        "count": 147,
+        "percentage": "3.44"
+      },
+      "7": {
+        "count": 133,
+        "percentage": "3.12"
+      },
+      "8": {
+        "count": 450,
+        "percentage": "10.54"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 664,
+        "percentage": "15.56"
+      },
+      "11": {
+        "count": 41,
+        "percentage": "0.96"
+      },
+      "12": {
+        "count": 925,
+        "percentage": "21.67"
+      }
+    },
+    "3032": {
+      "0": {
+        "count": 850,
+        "percentage": "23.58"
+      },
+      "1": {
+        "count": 126,
+        "percentage": "3.50"
+      },
+      "2": {
+        "count": 203,
+        "percentage": "5.63"
+      },
+      "3": {
+        "count": 158,
+        "percentage": "4.38"
+      },
+      "4": {
+        "count": 292,
+        "percentage": "8.10"
+      },
+      "5": {
+        "count": 28,
+        "percentage": "0.78"
+      },
+      "6": {
+        "count": 125,
+        "percentage": "3.47"
+      },
+      "7": {
+        "count": 94,
+        "percentage": "2.61"
+      },
+      "8": {
+        "count": 347,
+        "percentage": "9.63"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 532,
+        "percentage": "14.76"
+      },
+      "11": {
+        "count": 56,
+        "percentage": "1.55"
+      },
+      "12": {
+        "count": 794,
+        "percentage": "22.02"
+      }
+    },
+    "3033": {
+      "0": {
+        "count": 653,
+        "percentage": "23.81"
+      },
+      "1": {
+        "count": 97,
+        "percentage": "3.54"
+      },
+      "2": {
+        "count": 148,
+        "percentage": "5.40"
+      },
+      "3": {
+        "count": 92,
+        "percentage": "3.35"
+      },
+      "4": {
+        "count": 237,
+        "percentage": "8.64"
+      },
+      "5": {
+        "count": 28,
+        "percentage": "1.02"
+      },
+      "6": {
+        "count": 79,
+        "percentage": "2.88"
+      },
+      "7": {
+        "count": 68,
+        "percentage": "2.48"
+      },
+      "8": {
+        "count": 246,
+        "percentage": "8.97"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 474,
+        "percentage": "17.28"
+      },
+      "11": {
+        "count": 25,
+        "percentage": "0.91"
+      },
+      "12": {
+        "count": 596,
+        "percentage": "21.73"
+      }
+    },
+    "3034": {
+      "0": {
+        "count": 592,
+        "percentage": "23.41"
+      },
+      "1": {
+        "count": 88,
+        "percentage": "3.48"
+      },
+      "2": {
+        "count": 168,
+        "percentage": "6.64"
+      },
+      "3": {
+        "count": 124,
+        "percentage": "4.90"
+      },
+      "4": {
+        "count": 184,
+        "percentage": "7.28"
+      },
+      "5": {
+        "count": 30,
+        "percentage": "1.19"
+      },
+      "6": {
+        "count": 61,
+        "percentage": "2.41"
+      },
+      "7": {
+        "count": 62,
+        "percentage": "2.45"
+      },
+      "8": {
+        "count": 229,
+        "percentage": "9.05"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 416,
+        "percentage": "16.45"
+      },
+      "11": {
+        "count": 44,
+        "percentage": "1.74"
+      },
+      "12": {
+        "count": 531,
+        "percentage": "21.00"
+      }
+    },
+    "3035": {
+      "0": {
+        "count": 531,
+        "percentage": "23.57"
+      },
+      "1": {
+        "count": 88,
+        "percentage": "3.91"
+      },
+      "2": {
+        "count": 143,
+        "percentage": "6.35"
+      },
+      "3": {
+        "count": 77,
+        "percentage": "3.42"
+      },
+      "4": {
+        "count": 160,
+        "percentage": "7.10"
+      },
+      "5": {
+        "count": 31,
+        "percentage": "1.38"
+      },
+      "6": {
+        "count": 71,
+        "percentage": "3.15"
+      },
+      "7": {
+        "count": 46,
+        "percentage": "2.04"
+      },
+      "8": {
+        "count": 211,
+        "percentage": "9.37"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 373,
+        "percentage": "16.56"
+      },
+      "11": {
+        "count": 32,
+        "percentage": "1.42"
+      },
+      "12": {
+        "count": 490,
+        "percentage": "21.75"
+      }
+    },
+    "3036": {
+      "0": {
+        "count": 286,
+        "percentage": "22.81"
+      },
+      "1": {
+        "count": 40,
+        "percentage": "3.19"
+      },
+      "2": {
+        "count": 81,
+        "percentage": "6.46"
+      },
+      "3": {
+        "count": 75,
+        "percentage": "5.98"
+      },
+      "4": {
+        "count": 99,
+        "percentage": "7.89"
+      },
+      "5": {
+        "count": 10,
+        "percentage": "0.80"
+      },
+      "6": {
+        "count": 33,
+        "percentage": "2.63"
+      },
+      "7": {
+        "count": 44,
+        "percentage": "3.51"
+      },
+      "8": {
+        "count": 104,
+        "percentage": "8.29"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 202,
+        "percentage": "16.11"
+      },
+      "11": {
+        "count": 21,
+        "percentage": "1.67"
+      },
+      "12": {
+        "count": 259,
+        "percentage": "20.65"
+      }
+    },
+    "3037": {
+      "0": {
+        "count": 233,
+        "percentage": "23.78"
+      },
+      "1": {
+        "count": 35,
+        "percentage": "3.57"
+      },
+      "2": {
+        "count": 70,
+        "percentage": "7.14"
+      },
+      "3": {
+        "count": 39,
+        "percentage": "3.98"
+      },
+      "4": {
+        "count": 76,
+        "percentage": "7.76"
+      },
+      "5": {
+        "count": 8,
+        "percentage": "0.82"
+      },
+      "6": {
+        "count": 25,
+        "percentage": "2.55"
+      },
+      "7": {
+        "count": 22,
+        "percentage": "2.24"
+      },
+      "8": {
+        "count": 95,
+        "percentage": "9.69"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 154,
+        "percentage": "15.71"
+      },
+      "11": {
+        "count": 19,
+        "percentage": "1.94"
+      },
+      "12": {
+        "count": 204,
+        "percentage": "20.82"
+      }
+    },
+    "3038": {
+      "0": {
+        "count": 169,
+        "percentage": "23.44"
+      },
+      "1": {
+        "count": 42,
+        "percentage": "5.83"
+      },
+      "2": {
+        "count": 55,
+        "percentage": "7.63"
+      },
+      "3": {
+        "count": 31,
+        "percentage": "4.30"
+      },
+      "4": {
+        "count": 48,
+        "percentage": "6.66"
+      },
+      "5": {
+        "count": 9,
+        "percentage": "1.25"
+      },
+      "6": {
+        "count": 18,
+        "percentage": "2.50"
+      },
+      "7": {
+        "count": 29,
+        "percentage": "4.02"
+      },
+      "8": {
+        "count": 61,
+        "percentage": "8.46"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 106,
+        "percentage": "14.70"
+      },
+      "11": {
+        "count": 11,
+        "percentage": "1.53"
+      },
+      "12": {
+        "count": 142,
+        "percentage": "19.69"
+      }
+    },
+    "3039": {
+      "0": {
+        "count": 125,
+        "percentage": "22.60"
+      },
+      "1": {
+        "count": 31,
+        "percentage": "5.61"
+      },
+      "2": {
+        "count": 43,
+        "percentage": "7.78"
+      },
+      "3": {
+        "count": 29,
+        "percentage": "5.24"
+      },
+      "4": {
+        "count": 43,
+        "percentage": "7.78"
+      },
+      "5": {
+        "count": 6,
+        "percentage": "1.08"
+      },
+      "6": {
+        "count": 13,
+        "percentage": "2.35"
+      },
+      "7": {
+        "count": 22,
+        "percentage": "3.98"
+      },
+      "8": {
+        "count": 47,
+        "percentage": "8.50"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 79,
+        "percentage": "14.29"
+      },
+      "11": {
+        "count": 2,
+        "percentage": "0.36"
+      },
+      "12": {
+        "count": 113,
+        "percentage": "20.43"
+      }
+    },
+    "3040": {
+      "0": {
+        "count": 60,
+        "percentage": "23.81"
+      },
+      "1": {
+        "count": 13,
+        "percentage": "5.16"
+      },
+      "2": {
+        "count": 27,
+        "percentage": "10.71"
+      },
+      "3": {
+        "count": 6,
+        "percentage": "2.38"
+      },
+      "4": {
+        "count": 18,
+        "percentage": "7.14"
+      },
+      "5": {
+        "count": 4,
+        "percentage": "1.59"
+      },
+      "6": {
+        "count": 8,
+        "percentage": "3.17"
+      },
+      "7": {
+        "count": 6,
+        "percentage": "2.38"
+      },
+      "8": {
+        "count": 17,
+        "percentage": "6.75"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 44,
+        "percentage": "17.46"
+      },
+      "11": {
+        "count": 1,
+        "percentage": "0.40"
+      },
+      "12": {
+        "count": 48,
+        "percentage": "19.05"
+      }
+    },
+    "3041": {
+      "0": {
+        "count": 64,
+        "percentage": "23.88"
+      },
+      "1": {
+        "count": 17,
+        "percentage": "6.34"
+      },
+      "2": {
+        "count": 33,
+        "percentage": "12.31"
+      },
+      "3": {
+        "count": 12,
+        "percentage": "4.48"
+      },
+      "4": {
+        "count": 17,
+        "percentage": "6.34"
+      },
+      "5": {
+        "count": 2,
+        "percentage": "0.75"
+      },
+      "6": {
+        "count": 4,
+        "percentage": "1.49"
+      },
+      "7": {
+        "count": 10,
+        "percentage": "3.73"
+      },
+      "8": {
+        "count": 17,
+        "percentage": "6.34"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 40,
+        "percentage": "14.93"
+      },
+      "11": {
+        "count": 1,
+        "percentage": "0.37"
+      },
+      "12": {
+        "count": 51,
+        "percentage": "19.03"
+      }
+    },
+    "3042": {
+      "0": {
+        "count": 33,
+        "percentage": "24.09"
+      },
+      "1": {
+        "count": 7,
+        "percentage": "5.11"
+      },
+      "2": {
+        "count": 15,
+        "percentage": "10.95"
+      },
+      "3": {
+        "count": 6,
+        "percentage": "4.38"
+      },
+      "4": {
+        "count": 12,
+        "percentage": "8.76"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "0.73"
+      },
+      "6": {
+        "count": 2,
+        "percentage": "1.46"
+      },
+      "7": {
+        "count": 4,
+        "percentage": "2.92"
+      },
+      "8": {
+        "count": 8,
+        "percentage": "5.84"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 19,
+        "percentage": "13.87"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 30,
+        "percentage": "21.90"
+      }
+    },
+    "3043": {
+      "0": {
+        "count": 25,
+        "percentage": "23.58"
+      },
+      "1": {
+        "count": 4,
+        "percentage": "3.77"
+      },
+      "2": {
+        "count": 13,
+        "percentage": "12.26"
+      },
+      "3": {
+        "count": 6,
+        "percentage": "5.66"
+      },
+      "4": {
+        "count": 8,
+        "percentage": "7.55"
+      },
+      "5": {
+        "count": 3,
+        "percentage": "2.83"
+      },
+      "6": {
+        "count": 4,
+        "percentage": "3.77"
+      },
+      "7": {
+        "count": 2,
+        "percentage": "1.89"
+      },
+      "8": {
+        "count": 7,
+        "percentage": "6.60"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 12,
+        "percentage": "11.32"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 22,
+        "percentage": "20.75"
+      }
+    },
+    "3044": {
+      "0": {
+        "count": 19,
+        "percentage": "22.62"
+      },
+      "1": {
+        "count": 3,
+        "percentage": "3.57"
+      },
+      "2": {
+        "count": 10,
+        "percentage": "11.90"
+      },
+      "3": {
+        "count": 7,
+        "percentage": "8.33"
+      },
+      "4": {
+        "count": 8,
+        "percentage": "9.52"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "1.19"
+      },
+      "6": {
+        "count": 5,
+        "percentage": "5.95"
+      },
+      "7": {
+        "count": 2,
+        "percentage": "2.38"
+      },
+      "8": {
+        "count": 6,
+        "percentage": "7.14"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 6,
+        "percentage": "7.14"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 17,
+        "percentage": "20.24"
+      }
+    },
+    "3045": {
+      "0": {
+        "count": 18,
+        "percentage": "23.08"
+      },
+      "1": {
+        "count": 3,
+        "percentage": "3.85"
+      },
+      "2": {
+        "count": 6,
+        "percentage": "7.69"
+      },
+      "3": {
+        "count": 6,
+        "percentage": "7.69"
+      },
+      "4": {
+        "count": 3,
+        "percentage": "3.85"
+      },
+      "5": {
+        "count": 3,
+        "percentage": "3.85"
+      },
+      "6": {
+        "count": 3,
+        "percentage": "3.85"
+      },
+      "7": {
+        "count": 6,
+        "percentage": "7.69"
+      },
+      "8": {
+        "count": 2,
+        "percentage": "2.56"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 12,
+        "percentage": "15.38"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 16,
+        "percentage": "20.51"
+      }
+    },
+    "3046": {
+      "0": {
+        "count": 8,
+        "percentage": "22.86"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "2.86"
+      },
+      "2": {
+        "count": 3,
+        "percentage": "8.57"
+      },
+      "3": {
+        "count": 3,
+        "percentage": "8.57"
+      },
+      "4": {
+        "count": 1,
+        "percentage": "2.86"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "2.86"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "2.86"
+      },
+      "7": {
+        "count": 4,
+        "percentage": "11.43"
+      },
+      "8": {
+        "count": 3,
+        "percentage": "8.57"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 3,
+        "percentage": "8.57"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 7,
+        "percentage": "20.00"
+      }
+    },
+    "3047": {
+      "0": {
+        "count": 7,
+        "percentage": "23.33"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "3.33"
+      },
+      "2": {
+        "count": 2,
+        "percentage": "6.67"
+      },
+      "3": {
+        "count": 1,
+        "percentage": "3.33"
+      },
+      "4": {
+        "count": 3,
+        "percentage": "10.00"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "3.33"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "3.33"
+      },
+      "7": {
+        "count": 2,
+        "percentage": "6.67"
+      },
+      "8": {
+        "count": 2,
+        "percentage": "6.67"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 4,
+        "percentage": "13.33"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 6,
+        "percentage": "20.00"
+      }
+    },
+    "3048": {
+      "0": {
+        "count": 8,
+        "percentage": "23.53"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "2.94"
+      },
+      "2": {
+        "count": 4,
+        "percentage": "11.76"
+      },
+      "3": {
+        "count": 3,
+        "percentage": "8.82"
+      },
+      "4": {
+        "count": 4,
+        "percentage": "11.76"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "2.94"
+      },
+      "6": {
+        "count": 2,
+        "percentage": "5.88"
+      },
+      "7": {
+        "count": 2,
+        "percentage": "5.88"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 2,
+        "percentage": "5.88"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 7,
+        "percentage": "20.59"
+      }
+    },
+    "3049": {
+      "0": {
+        "count": 5,
+        "percentage": "20.83"
+      },
+      "1": {
+        "count": 2,
+        "percentage": "8.33"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "4.17"
+      },
+      "3": {
+        "count": 1,
+        "percentage": "4.17"
+      },
+      "4": {
+        "count": 2,
+        "percentage": "8.33"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "4.17"
+      },
+      "6": {
+        "count": 2,
+        "percentage": "8.33"
+      },
+      "7": {
+        "count": 2,
+        "percentage": "8.33"
+      },
+      "8": {
+        "count": 1,
+        "percentage": "4.17"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 3,
+        "percentage": "12.50"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 4,
+        "percentage": "16.67"
+      }
+    },
+    "3050": {
+      "0": {
+        "count": 3,
+        "percentage": "25.00"
+      },
+      "1": {
+        "count": 2,
+        "percentage": "16.67"
+      },
+      "2": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "8.33"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "8.33"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 2,
+        "percentage": "16.67"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1,
+        "percentage": "8.33"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 2,
+        "percentage": "16.67"
+      }
+    },
+    "3051": {
+      "0": {
+        "count": 2,
+        "percentage": "20.00"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "10.00"
+      },
+      "2": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 1,
+        "percentage": "10.00"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "10.00"
+      },
+      "6": {
+        "count": 2,
+        "percentage": "20.00"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 1,
+        "percentage": "10.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 2,
+        "percentage": "20.00"
+      }
+    },
+    "3052": {
+      "0": {
+        "count": 3,
+        "percentage": "18.75"
+      },
+      "1": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "2": {
+        "count": 2,
+        "percentage": "12.50"
+      },
+      "3": {
+        "count": 1,
+        "percentage": "6.25"
+      },
+      "4": {
+        "count": 3,
+        "percentage": "18.75"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "6.25"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "6.25"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 1,
+        "percentage": "6.25"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 2,
+        "percentage": "12.50"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 2,
+        "percentage": "12.50"
+      }
+    },
+    "3053": {
+      "0": {
+        "count": 2,
+        "percentage": "18.18"
+      },
+      "1": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "2": {
+        "count": 2,
+        "percentage": "18.18"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 1,
+        "percentage": "9.09"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "9.09"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "9.09"
+      },
+      "7": {
+        "count": 1,
+        "percentage": "9.09"
+      },
+      "8": {
+        "count": 1,
+        "percentage": "9.09"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1,
+        "percentage": "9.09"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 1,
+        "percentage": "9.09"
+      }
+    },
+    "3054": {
+      "0": {
+        "count": 2,
+        "percentage": "18.18"
+      },
+      "1": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "2": {
+        "count": 2,
+        "percentage": "18.18"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 1,
+        "percentage": "9.09"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "9.09"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "9.09"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 1,
+        "percentage": "9.09"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1,
+        "percentage": "9.09"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 2,
+        "percentage": "18.18"
+      }
+    },
+    "3055": {
+      "0": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "1": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "2": {
+        "count": 2,
+        "percentage": "28.57"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "5": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 1,
+        "percentage": "14.29"
+      }
+    },
+    "3056": {
+      "0": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "1": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "12": {
+        "count": 0,
+        "percentage": "0.00"
+      }
+    },
+    "3057": {
+      "0": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "1": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "6": {
+        "count": 2,
+        "percentage": "28.57"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 0,
+        "percentage": "0.00"
+      }
+    },
+    "3058": {
+      "0": {
+        "count": 1,
+        "percentage": "20.00"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "20.00"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "20.00"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "5": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "20.00"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 1,
+        "percentage": "20.00"
+      }
+    },
+    "3059": {
+      "0": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "5": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "12": {
+        "count": 1,
+        "percentage": "16.67"
+      }
+    },
+    "3060": {
+      "0": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "5": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 0,
+        "percentage": "0.00"
+      }
+    },
+    "3061": {
+      "0": {
+        "count": 2,
+        "percentage": "28.57"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "5": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "6": {
+        "count": 2,
+        "percentage": "28.57"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 1,
+        "percentage": "14.29"
+      }
+    },
+    "3062": {
+      "0": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 1,
+        "percentage": "16.67"
+      }
+    },
+    "3063": {
+      "0": {
+        "count": 2,
+        "percentage": "28.57"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "6": {
+        "count": 2,
+        "percentage": "28.57"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 0,
+        "percentage": "0.00"
+      }
+    },
+    "3064": {
+      "0": {
+        "count": 1,
+        "percentage": "20.00"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "20.00"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "20.00"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "20.00"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "20.00"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 0,
+        "percentage": "0.00"
+      }
+    },
+    "3065": {
+      "0": {
+        "count": 2,
+        "percentage": "28.57"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 1,
+        "percentage": "14.29"
+      }
+    },
+    "3066": {
+      "0": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 1,
+        "percentage": "16.67"
+      }
+    },
+    "3067": {
+      "0": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "6": {
+        "count": 2,
+        "percentage": "28.57"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 1,
+        "percentage": "14.29"
+      }
+    },
+    "3068": {
+      "0": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "5": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 1,
+        "percentage": "16.67"
+      }
+    },
+    "3069": {
+      "0": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "3": {
+        "count": 1,
+        "percentage": "14.29"
+      },
+      "4": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "5": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "6": {
+        "count": 2,
+        "percentage": "28.57"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 1,
+        "percentage": "14.29"
+      }
+    },
+    "3070": {
+      "0": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "5": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 1,
+        "percentage": "16.67"
+      }
+    },
+    "5001": {
+      "0": {
+        "count": 4897,
+        "percentage": "20.38"
+      },
+      "1": {
+        "count": 1466,
+        "percentage": "6.10"
+      },
+      "2": {
+        "count": 2063,
+        "percentage": "8.59"
+      },
+      "3": {
+        "count": 1569,
+        "percentage": "6.53"
+      },
+      "4": {
+        "count": 1557,
+        "percentage": "6.48"
+      },
+      "5": {
+        "count": 1229,
+        "percentage": "5.12"
+      },
+      "6": {
+        "count": 1921,
+        "percentage": "8.00"
+      },
+      "7": {
+        "count": 1793,
+        "percentage": "7.46"
+      },
+      "8": {
+        "count": 2336,
+        "percentage": "9.72"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 2213,
+        "percentage": "9.21"
+      },
+      "11": {
+        "count": 1019,
+        "percentage": "4.24"
+      },
+      "12": {
+        "count": 1961,
+        "percentage": "8.16"
+      }
+    },
+    "5002": {
+      "0": {
+        "count": 1325,
+        "percentage": "20.28"
+      },
+      "1": {
+        "count": 440,
+        "percentage": "6.73"
+      },
+      "2": {
+        "count": 644,
+        "percentage": "9.86"
+      },
+      "3": {
+        "count": 391,
+        "percentage": "5.98"
+      },
+      "4": {
+        "count": 455,
+        "percentage": "6.96"
+      },
+      "5": {
+        "count": 281,
+        "percentage": "4.30"
+      },
+      "6": {
+        "count": 357,
+        "percentage": "5.46"
+      },
+      "7": {
+        "count": 388,
+        "percentage": "5.94"
+      },
+      "8": {
+        "count": 481,
+        "percentage": "7.36"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 572,
+        "percentage": "8.75"
+      },
+      "11": {
+        "count": 286,
+        "percentage": "4.38"
+      },
+      "12": {
+        "count": 914,
+        "percentage": "13.99"
+      }
+    },
+    "5003": {
+      "0": {
+        "count": 117,
+        "percentage": "20.24"
+      },
+      "1": {
+        "count": 42,
+        "percentage": "7.27"
+      },
+      "2": {
+        "count": 86,
+        "percentage": "14.88"
+      },
+      "3": {
+        "count": 41,
+        "percentage": "7.09"
+      },
+      "4": {
+        "count": 37,
+        "percentage": "6.40"
+      },
+      "5": {
+        "count": 18,
+        "percentage": "3.11"
+      },
+      "6": {
+        "count": 27,
+        "percentage": "4.67"
+      },
+      "7": {
+        "count": 37,
+        "percentage": "6.40"
+      },
+      "8": {
+        "count": 30,
+        "percentage": "5.19"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 60,
+        "percentage": "10.38"
+      },
+      "11": {
+        "count": 18,
+        "percentage": "3.11"
+      },
+      "12": {
+        "count": 65,
+        "percentage": "11.25"
+      }
+    },
+    "5004": {
+      "0": {
+        "count": 2,
+        "percentage": "20.00"
+      },
+      "1": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "2": {
+        "count": 2,
+        "percentage": "20.00"
+      },
+      "3": {
+        "count": 1,
+        "percentage": "10.00"
+      },
+      "4": {
+        "count": 2,
+        "percentage": "20.00"
+      },
+      "5": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "6": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 2,
+        "percentage": "20.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 1,
+        "percentage": "10.00"
+      }
+    },
+    "5006": {
+      "0": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "1": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "3": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "4": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "5": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "6": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 1,
+        "percentage": "16.67"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 0,
+        "percentage": "0.00"
+      }
+    },
+    "5007": {
+      "0": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "1": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "2": {
+        "count": 1,
+        "percentage": "100.00"
+      },
+      "3": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "4": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "5": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "6": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "7": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "8": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "9": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "10": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "11": {
+        "count": 0,
+        "percentage": "0.00"
+      },
+      "12": {
+        "count": 0,
+        "percentage": "0.00"
+      }
+    }
+  }
+}
