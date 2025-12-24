@@ -19,7 +19,7 @@
 
 CSV 파일은 아래 형식이어야 합니다:
 - `stage_id`: 스테이지 번호 (예: 2001, 3015, 5003)
-- `units_info[0].unit_type` ~ `units_info[4].unit_type`: 슬롯 1~5의 유닛 ID (0~12)
+- `units_info[0].unit_type` ~ `units_info[4].unit_type`: 슬롯 1 ~ 5의 유닛 ID (0 ~ 12)
 
 **유닛 ID 매핑:**
 | ID | 유닛명 |
