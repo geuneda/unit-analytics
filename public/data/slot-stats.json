@@ -17,164 +17,164 @@
   "slots": {
     "1": {
       "0": {
-        "count": 82755,
-        "percentage": "91.77"
+        "count": 183869,
+        "percentage": "90.51"
       },
       "1": {
-        "count": 1963,
-        "percentage": "2.18"
+        "count": 3718,
+        "percentage": "1.83"
       },
       "2": {
-        "count": 2296,
-        "percentage": "2.55"
+        "count": 6090,
+        "percentage": "3.00"
       },
       "3": {
-        "count": 495,
-        "percentage": "0.55"
+        "count": 1205,
+        "percentage": "0.59"
       },
       "4": {
-        "count": 647,
-        "percentage": "0.72"
+        "count": 1776,
+        "percentage": "0.87"
       },
       "5": {
-        "count": 345,
-        "percentage": "0.38"
+        "count": 1139,
+        "percentage": "0.56"
       },
       "6": {
-        "count": 386,
-        "percentage": "0.43"
+        "count": 884,
+        "percentage": "0.44"
       },
       "7": {
-        "count": 207,
+        "count": 470,
         "percentage": "0.23"
       },
       "8": {
-        "count": 493,
-        "percentage": "0.55"
+        "count": 1874,
+        "percentage": "0.92"
       },
       "9": {
         "count": 0,
         "percentage": "0.00"
       },
       "10": {
-        "count": 394,
-        "percentage": "0.44"
+        "count": 1633,
+        "percentage": "0.80"
       },
       "11": {
-        "count": 118,
-        "percentage": "0.13"
+        "count": 243,
+        "percentage": "0.12"
       },
       "12": {
-        "count": 74,
-        "percentage": "0.08"
+        "count": 245,
+        "percentage": "0.12"
       }
     },
     "2": {
       "0": {
-        "count": 4974,
-        "percentage": "5.52"
+        "count": 13191,
+        "percentage": "6.49"
       },
       "1": {
-        "count": 7049,
-        "percentage": "7.82"
+        "count": 19948,
+        "percentage": "9.82"
       },
       "2": {
-        "count": 10143,
-        "percentage": "11.25"
+        "count": 21612,
+        "percentage": "10.64"
       },
       "3": {
-        "count": 4716,
-        "percentage": "5.23"
+        "count": 10951,
+        "percentage": "5.39"
       },
       "4": {
-        "count": 4646,
-        "percentage": "5.15"
+        "count": 13345,
+        "percentage": "6.57"
       },
       "5": {
-        "count": 5708,
-        "percentage": "6.33"
+        "count": 18599,
+        "percentage": "9.16"
       },
       "6": {
-        "count": 11709,
-        "percentage": "12.99"
+        "count": 27068,
+        "percentage": "13.32"
       },
       "7": {
-        "count": 4923,
-        "percentage": "5.46"
+        "count": 11139,
+        "percentage": "5.48"
       },
       "8": {
-        "count": 14470,
-        "percentage": "16.05"
+        "count": 28974,
+        "percentage": "14.26"
       },
       "9": {
         "count": 0,
         "percentage": "0.00"
       },
       "10": {
-        "count": 14582,
-        "percentage": "16.17"
+        "count": 22050,
+        "percentage": "10.85"
       },
       "11": {
-        "count": 3359,
-        "percentage": "3.73"
+        "count": 9655,
+        "percentage": "4.75"
       },
       "12": {
-        "count": 3893,
-        "percentage": "4.32"
+        "count": 6614,
+        "percentage": "3.26"
       }
     },
     "3": {
       "0": {
-        "count": 474,
-        "percentage": "0.53"
+        "count": 2076,
+        "percentage": "1.03"
       },
       "1": {
-        "count": 6700,
-        "percentage": "7.49"
+        "count": 18302,
+        "percentage": "9.11"
       },
       "2": {
-        "count": 11286,
-        "percentage": "12.62"
+        "count": 24196,
+        "percentage": "12.05"
       },
       "3": {
-        "count": 6390,
-        "percentage": "7.14"
+        "count": 15577,
+        "percentage": "7.75"
       },
       "4": {
-        "count": 5976,
-        "percentage": "6.68"
+        "count": 15786,
+        "percentage": "7.86"
       },
       "5": {
-        "count": 5945,
-        "percentage": "6.65"
+        "count": 17925,
+        "percentage": "8.92"
       },
       "6": {
-        "count": 11220,
-        "percentage": "12.54"
+        "count": 25949,
+        "percentage": "12.92"
       },
       "7": {
-        "count": 5906,
-        "percentage": "6.60"
+        "count": 13354,
+        "percentage": "6.65"
       },
       "8": {
-        "count": 13610,
-        "percentage": "15.22"
+        "count": 26582,
+        "percentage": "13.23"
       },
       "9": {
         "count": 0,
         "percentage": "0.00"
       },
       "10": {
-        "count": 12676,
-        "percentage": "14.17"
+        "count": 20873,
+        "percentage": "10.39"
       },
       "11": {
-        "count": 4132,
-        "percentage": "4.62"
+        "count": 11033,
+        "percentage": "5.49"
       },
       "12": {
-        "count": 5126,
-        "percentage": "5.73"
+        "count": 9213,
+        "percentage": "4.59"
       }
     },
     "4": {
@@ -183,52 +183,52 @@
         "percentage": "0.00"
       },
       "1": {
-        "count": 3504,
-        "percentage": "5.64"
+        "count": 10366,
+        "percentage": "7.37"
       },
       "2": {
-        "count": 6531,
-        "percentage": "10.51"
+        "count": 13924,
+        "percentage": "9.90"
       },
       "3": {
-        "count": 5527,
-        "percentage": "8.90"
+        "count": 13687,
+        "percentage": "9.73"
       },
       "4": {
-        "count": 4566,
-        "percentage": "7.35"
+        "count": 12196,
+        "percentage": "8.67"
       },
       "5": {
-        "count": 3460,
-        "percentage": "5.57"
+        "count": 10236,
+        "percentage": "7.28"
       },
       "6": {
-        "count": 8222,
-        "percentage": "13.24"
+        "count": 18525,
+        "percentage": "13.17"
       },
       "7": {
-        "count": 4224,
-        "percentage": "6.80"
+        "count": 10334,
+        "percentage": "7.35"
       },
       "8": {
-        "count": 9868,
-        "percentage": "15.89"
+        "count": 19555,
+        "percentage": "13.90"
       },
       "9": {
         "count": 0,
         "percentage": "0.00"
       },
       "10": {
-        "count": 8577,
-        "percentage": "13.81"
+        "count": 14780,
+        "percentage": "10.51"
       },
       "11": {
-        "count": 2916,
-        "percentage": "4.69"
+        "count": 8555,
+        "percentage": "6.08"
       },
       "12": {
-        "count": 4720,
-        "percentage": "7.60"
+        "count": 8529,
+        "percentage": "6.06"
       }
     },
     "5": {
@@ -237,52 +237,52 @@
         "percentage": "0.00"
       },
       "1": {
-        "count": 1649,
-        "percentage": "6.03"
+        "count": 4680,
+        "percentage": "6.83"
       },
       "2": {
-        "count": 2753,
-        "percentage": "10.07"
+        "count": 6573,
+        "percentage": "9.59"
       },
       "3": {
-        "count": 2675,
-        "percentage": "9.79"
+        "count": 7034,
+        "percentage": "10.27"
       },
       "4": {
-        "count": 2354,
-        "percentage": "8.61"
+        "count": 6948,
+        "percentage": "10.14"
       },
       "5": {
-        "count": 1729,
-        "percentage": "6.33"
+        "count": 5034,
+        "percentage": "7.35"
       },
       "6": {
-        "count": 3393,
-        "percentage": "12.41"
+        "count": 8384,
+        "percentage": "12.24"
       },
       "7": {
-        "count": 2290,
-        "percentage": "8.38"
+        "count": 5862,
+        "percentage": "8.56"
       },
       "8": {
-        "count": 3644,
-        "percentage": "13.33"
+        "count": 8013,
+        "percentage": "11.70"
       },
       "9": {
         "count": 0,
         "percentage": "0.00"
       },
       "10": {
-        "count": 3143,
-        "percentage": "11.50"
+        "count": 6683,
+        "percentage": "9.76"
       },
       "11": {
-        "count": 1414,
-        "percentage": "5.17"
+        "count": 4438,
+        "percentage": "6.48"
       },
       "12": {
-        "count": 2286,
-        "percentage": "8.36"
+        "count": 4856,
+        "percentage": "7.09"
       }
     }
   }
