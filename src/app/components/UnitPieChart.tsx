@@ -50,7 +50,7 @@ export default function UnitPieChart({ data, unitNames, title }: Props) {
           <PieChart>
             <Pie
               data={chartData}
-              cx="50%"
+              cx="30%"
               cy="50%"
               labelLine={false}
               outerRadius={120}
