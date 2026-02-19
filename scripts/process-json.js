@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const JSON_PATH = '/Users/teamsparta/Downloads/default.stage_clear_history.json';
+const JSON_PATH = path.join(__dirname, '..', 'default.stage_clear_history.json');
 const OUTPUT_DIR = path.join(__dirname, '..', 'public', 'data');
 
 const UNIT_NAMES = {
@@ -20,6 +20,23 @@ const UNIT_NAMES = {
   12: '바람돌이'
 };
 
+const MINION_NAMES = {
+  2401: '미니거북',
+  2501: '추종자',
+  2201: '소형 순양함',
+  2301: '골렘',
+  2202: '건설 로봇',
+  2101: '의무병'
+};
+
+const RARITY_NAMES = {
+  0: 'Uncommon',
+  1: 'Rare',
+  2: 'Epic',
+  3: 'Legendary',
+  4: 'Mythic'
+};
+
 // 통계 저장 객체
 const stats = {
   overall: {}, // 전체 유닛 사용 횟수
@@ -31,12 +48,32 @@ const stats = {
   stageList: new Set()
 };
 
+// 미니언 통계 저장 객체
+const minionStats = {
+  overall: {},
+  combos: {},
+  detail: {},
+  byStageGroup: {},
+  totalRecordsWithMinions: 0,
+  totalMinionSelections: 0
+};
+
 // 유닛 초기화
 for (let i = 0; i <= 12; i++) {
   stats.overall[i] = 0;
   for (let slot = 0; slot < 5; slot++) {
     stats.bySlot[slot][i] = 0;
   }
+}
+
+// 미니언 초기화
+for (const minionId of Object.keys(MINION_NAMES)) {
+  minionStats.overall[minionId] = 0;
+  minionStats.detail[minionId] = {
+    byRarity: {},
+    byRank: {},
+    byEnhanceLevel: {}
+  };
 }
 
 function processJSON() {
@@ -114,6 +151,51 @@ function processJSON() {
       for (let j = i + 1; j < uniqueUnits.length; j++) {
         const comboKey = `${uniqueUnits[i]}-${uniqueUnits[j]}`;
         stats.combos[comboKey] = (stats.combos[comboKey] || 0) + 1;
+      }
+    }
+
+    // 미니언 정보 처리
+    const minionsInfo = record.minions_info;
+    if (minionsInfo && Array.isArray(minionsInfo) && minionsInfo.length > 0) {
+      minionStats.totalRecordsWithMinions++;
+
+      const stageGroup = Math.floor(parseInt(stageId) / 1000) * 1000;
+      if (!minionStats.byStageGroup[stageGroup]) {
+        minionStats.byStageGroup[stageGroup] = {};
+        for (const mid of Object.keys(MINION_NAMES)) {
+          minionStats.byStageGroup[stageGroup][mid] = 0;
+        }
+      }
+
+      const minionIdsInRecord = [];
+
+      for (const minion of minionsInfo) {
+        const minionId = String(minion.minion_id);
+        if (!MINION_NAMES[minionId]) continue;
+
+        minionIdsInRecord.push(minionId);
+        minionStats.overall[minionId] = (minionStats.overall[minionId] || 0) + 1;
+        minionStats.totalMinionSelections++;
+
+        // 스테이지 그룹별
+        minionStats.byStageGroup[stageGroup][minionId] = (minionStats.byStageGroup[stageGroup][minionId] || 0) + 1;
+
+        // 상세 통계
+        const detail = minionStats.detail[minionId];
+        const rarity = String(minion.minion_rarity);
+        const rank = String(minion.minion_rank);
+        const enhanceLevel = String(minion.enhance_level);
+
+        detail.byRarity[rarity] = (detail.byRarity[rarity] || 0) + 1;
+        detail.byRank[rank] = (detail.byRank[rank] || 0) + 1;
+        detail.byEnhanceLevel[enhanceLevel] = (detail.byEnhanceLevel[enhanceLevel] || 0) + 1;
+      }
+
+      // 미니언 조합 (2개)
+      const uniqueMinions = [...new Set(minionIdsInRecord)].sort();
+      if (uniqueMinions.length === 2) {
+        const comboKey = `${uniqueMinions[0]}-${uniqueMinions[1]}`;
+        minionStats.combos[comboKey] = (minionStats.combos[comboKey] || 0) + 1;
       }
     }
   }
@@ -238,9 +320,42 @@ function main() {
     );
     console.log('stage-list.json 저장 완료');
 
+    // 미니언 전체 통계 저장
+    const minionOverall = {
+      minionNames: MINION_NAMES,
+      rarityNames: RARITY_NAMES,
+      totalRecordsWithMinions: minionStats.totalRecordsWithMinions,
+      totalMinionSelections: minionStats.totalMinionSelections,
+      overall: calculatePercentages(minionStats.overall),
+      detail: minionStats.detail,
+      combos: Object.entries(minionStats.combos)
+        .sort((a, b) => b[1] - a[1])
+        .map(([combo, count]) => {
+          const [m1, m2] = combo.split('-');
+          return {
+            minions: [parseInt(m1), parseInt(m2)],
+            minionNames: [MINION_NAMES[m1], MINION_NAMES[m2]],
+            count
+          };
+        }),
+      byStageGroup: {}
+    };
+
+    for (const [groupId, counts] of Object.entries(minionStats.byStageGroup)) {
+      minionOverall.byStageGroup[groupId] = calculatePercentages(counts);
+    }
+
+    fs.writeFileSync(
+      path.join(OUTPUT_DIR, 'minion-stats.json'),
+      JSON.stringify(minionOverall, null, 2)
+    );
+    console.log('minion-stats.json 저장 완료');
+
     console.log('\n모든 데이터 처리 완료!');
     console.log(`총 레코드 수: ${stats.totalRecords}`);
     console.log(`총 스테이지 수: ${stageList.length}`);
+    console.log(`미니언 보유 레코드 수: ${minionStats.totalRecordsWithMinions}`);
+    console.log(`총 미니언 선택 수: ${minionStats.totalMinionSelections}`);
 
   } catch (error) {
     console.error('오류 발생:', error);

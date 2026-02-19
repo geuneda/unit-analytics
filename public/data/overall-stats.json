@@ -14,60 +14,60 @@
     "11": "또르",
     "12": "바람돌이"
   },
-  "totalSelections": 816350,
-  "totalRecords": 203146,
+  "totalSelections": 1312491,
+  "totalRecords": 322188,
   "units": {
     "0": {
-      "count": 199136,
-      "percentage": "24.39"
+      "count": 316803,
+      "percentage": "24.14"
     },
     "1": {
-      "count": 57014,
-      "percentage": "6.98"
+      "count": 94851,
+      "percentage": "7.23"
     },
     "2": {
-      "count": 72395,
-      "percentage": "8.87"
+      "count": 112124,
+      "percentage": "8.54"
     },
     "3": {
-      "count": 48454,
-      "percentage": "5.94"
+      "count": 80779,
+      "percentage": "6.15"
     },
     "4": {
-      "count": 50051,
-      "percentage": "6.13"
+      "count": 85508,
+      "percentage": "6.51"
     },
     "5": {
-      "count": 52933,
-      "percentage": "6.48"
+      "count": 92680,
+      "percentage": "7.06"
     },
     "6": {
-      "count": 80810,
-      "percentage": "9.90"
+      "count": 149315,
+      "percentage": "11.38"
     },
     "7": {
-      "count": 41159,
-      "percentage": "5.04"
+      "count": 69292,
+      "percentage": "5.28"
     },
     "8": {
-      "count": 84998,
-      "percentage": "10.41"
+      "count": 133638,
+      "percentage": "10.18"
     },
     "9": {
       "count": 0,
       "percentage": "0.00"
     },
     "10": {
-      "count": 66019,
-      "percentage": "8.09"
+      "count": 82352,
+      "percentage": "6.27"
     },
     "11": {
-      "count": 33924,
-      "percentage": "4.16"
+      "count": 57211,
+      "percentage": "4.36"
     },
     "12": {
-      "count": 29457,
-      "percentage": "3.61"
+      "count": 37938,
+      "percentage": "2.89"
     }
   }
 }

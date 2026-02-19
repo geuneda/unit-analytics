@@ -8,6 +8,7 @@ import SlotAnalysis from './components/SlotAnalysis';
 import ComboAnalysis from './components/ComboAnalysis';
 import StageGroupAnalysis from './components/StageGroupAnalysis';
 import StageRangeAnalysis from './components/StageRangeAnalysis';
+import MinionAnalysis from './components/MinionAnalysis';
 
 interface UnitData {
   count: number;
@@ -45,15 +46,39 @@ interface StageGroupStats {
   groups: Record<string, Record<string, UnitData>>;
 }
 
+interface MinionDetail {
+  byRarity: Record<string, number>;
+  byRank: Record<string, number>;
+  byEnhanceLevel: Record<string, number>;
+}
+
+interface MinionCombo {
+  minions: number[];
+  minionNames: string[];
+  count: number;
+}
+
+interface MinionStats {
+  minionNames: Record<string, string>;
+  rarityNames: Record<string, string>;
+  totalRecordsWithMinions: number;
+  totalMinionSelections: number;
+  overall: Record<string, UnitData>;
+  detail: Record<string, MinionDetail>;
+  combos: MinionCombo[];
+  byStageGroup: Record<string, Record<string, UnitData>>;
+}
+
 export default function Home() {
   const [overallStats, setOverallStats] = useState<OverallStats | null>(null);
   const [stageStats, setStageStats] = useState<StageStats | null>(null);
   const [slotStats, setSlotStats] = useState<SlotStats | null>(null);
   const [comboStats, setComboStats] = useState<ComboStats | null>(null);
   const [stageGroupStats, setStageGroupStats] = useState<StageGroupStats | null>(null);
+  const [minionStats, setMinionStats] = useState<MinionStats | null>(null);
   const [stageList, setStageList] = useState<string[]>([]);
   const [selectedStage, setSelectedStage] = useState<string>('');
-  const [activeTab, setActiveTab] = useState<'overall' | 'stage' | 'range' | 'slot' | 'combo' | 'group'>('overall');
+  const [activeTab, setActiveTab] = useState<'overall' | 'stage' | 'range' | 'slot' | 'combo' | 'group' | 'minion'>('overall');
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -64,13 +89,15 @@ export default function Home() {
       fetch('/data/combo-stats.json').then(r => r.json()),
       fetch('/data/stage-group-stats.json').then(r => r.json()),
       fetch('/data/stage-list.json').then(r => r.json()),
-    ]).then(([overall, stage, slot, combo, group, stages]) => {
+      fetch('/data/minion-stats.json').then(r => r.json()),
+    ]).then(([overall, stage, slot, combo, group, stages, minion]) => {
       setOverallStats(overall);
       setStageStats(stage);
       setSlotStats(slot);
       setComboStats(combo);
       setStageGroupStats(group);
       setStageList(stages);
+      setMinionStats(minion);
       setSelectedStage(stages[0] || '');
       setLoading(false);
     });
@@ -91,6 +118,7 @@ export default function Home() {
     { id: 'group', label: '챕터별', icon: '📁' },
     { id: 'slot', label: '슬롯별', icon: '🎰' },
     { id: 'combo', label: '유닛 조합', icon: '🤝' },
+    { id: 'minion', label: '미니언', icon: '👾' },
   ] as const;
 
   return (
@@ -248,6 +276,11 @@ export default function Home() {
         {/* 유닛 조합 */}
         {activeTab === 'combo' && comboStats && (
           <ComboAnalysis combos={comboStats.topCombos} />
+        )}
+
+        {/* 미니언 */}
+        {activeTab === 'minion' && minionStats && (
+          <MinionAnalysis data={minionStats} />
         )}
       </main>
 
