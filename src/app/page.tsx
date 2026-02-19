@@ -69,6 +69,11 @@ interface MinionStats {
   byStageGroup: Record<string, Record<string, UnitData>>;
 }
 
+interface MinionStageStats {
+  minionNames: Record<string, string>;
+  stages: Record<string, Record<string, UnitData>>;
+}
+
 export default function Home() {
   const [overallStats, setOverallStats] = useState<OverallStats | null>(null);
   const [stageStats, setStageStats] = useState<StageStats | null>(null);
@@ -76,6 +81,7 @@ export default function Home() {
   const [comboStats, setComboStats] = useState<ComboStats | null>(null);
   const [stageGroupStats, setStageGroupStats] = useState<StageGroupStats | null>(null);
   const [minionStats, setMinionStats] = useState<MinionStats | null>(null);
+  const [minionStageStats, setMinionStageStats] = useState<MinionStageStats | null>(null);
   const [stageList, setStageList] = useState<string[]>([]);
   const [selectedStage, setSelectedStage] = useState<string>('');
   const [activeTab, setActiveTab] = useState<'overall' | 'stage' | 'range' | 'slot' | 'combo' | 'group' | 'minion'>('overall');
@@ -90,7 +96,8 @@ export default function Home() {
       fetch('/data/stage-group-stats.json').then(r => r.json()),
       fetch('/data/stage-list.json').then(r => r.json()),
       fetch('/data/minion-stats.json').then(r => r.json()),
-    ]).then(([overall, stage, slot, combo, group, stages, minion]) => {
+      fetch('/data/minion-stage-stats.json').then(r => r.json()),
+    ]).then(([overall, stage, slot, combo, group, stages, minion, minionStage]) => {
       setOverallStats(overall);
       setStageStats(stage);
       setSlotStats(slot);
@@ -98,6 +105,7 @@ export default function Home() {
       setStageGroupStats(group);
       setStageList(stages);
       setMinionStats(minion);
+      setMinionStageStats(minionStage);
       setSelectedStage(stages[0] || '');
       setLoading(false);
     });
@@ -280,7 +288,7 @@ export default function Home() {
 
         {/* 미니언 */}
         {activeTab === 'minion' && minionStats && (
-          <MinionAnalysis data={minionStats} />
+          <MinionAnalysis data={minionStats} stageData={minionStageStats} stageList={stageList} />
         )}
       </main>
 

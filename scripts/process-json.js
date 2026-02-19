@@ -53,6 +53,7 @@ const minionStats = {
   overall: {},
   combos: {},
   detail: {},
+  byStage: {},
   byStageGroup: {},
   totalRecordsWithMinions: 0,
   totalMinionSelections: 0
@@ -167,6 +168,14 @@ function processJSON() {
         }
       }
 
+      // 스테이지별 미니언 초기화
+      if (!minionStats.byStage[stageId]) {
+        minionStats.byStage[stageId] = {};
+        for (const mid of Object.keys(MINION_NAMES)) {
+          minionStats.byStage[stageId][mid] = 0;
+        }
+      }
+
       const minionIdsInRecord = [];
 
       for (const minion of minionsInfo) {
@@ -176,6 +185,9 @@ function processJSON() {
         minionIdsInRecord.push(minionId);
         minionStats.overall[minionId] = (minionStats.overall[minionId] || 0) + 1;
         minionStats.totalMinionSelections++;
+
+        // 스테이지별
+        minionStats.byStage[stageId][minionId] = (minionStats.byStage[stageId][minionId] || 0) + 1;
 
         // 스테이지 그룹별
         minionStats.byStageGroup[stageGroup][minionId] = (minionStats.byStageGroup[stageGroup][minionId] || 0) + 1;
@@ -350,6 +362,22 @@ function main() {
       JSON.stringify(minionOverall, null, 2)
     );
     console.log('minion-stats.json 저장 완료');
+
+    // 미니언 스테이지별 통계 저장
+    const minionStageStats = {
+      minionNames: MINION_NAMES,
+      stages: {}
+    };
+
+    for (const [stageId, counts] of Object.entries(minionStats.byStage)) {
+      minionStageStats.stages[stageId] = calculatePercentages(counts);
+    }
+
+    fs.writeFileSync(
+      path.join(OUTPUT_DIR, 'minion-stage-stats.json'),
+      JSON.stringify(minionStageStats, null, 2)
+    );
+    console.log('minion-stage-stats.json 저장 완료');
 
     console.log('\n모든 데이터 처리 완료!');
     console.log(`총 레코드 수: ${stats.totalRecords}`);

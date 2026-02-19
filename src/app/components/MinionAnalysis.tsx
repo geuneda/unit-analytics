@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
   ResponsiveContainer, Cell, PieChart, Pie
@@ -34,8 +34,15 @@ interface MinionStats {
   byStageGroup: Record<string, Record<string, CountPercentage>>;
 }
 
+interface MinionStageStats {
+  minionNames: Record<string, string>;
+  stages: Record<string, Record<string, CountPercentage>>;
+}
+
 interface Props {
   data: MinionStats;
+  stageData: MinionStageStats | null;
+  stageList: string[];
 }
 
 const MINION_COLORS: Record<string, string> = {
@@ -62,9 +69,9 @@ const GROUP_NAMES: Record<string, string> = {
   '7000': '이벤트',
 };
 
-type DetailView = 'overview' | 'detail' | 'combo' | 'stage';
+type DetailView = 'overview' | 'detail' | 'combo' | 'stage' | 'range';
 
-export default function MinionAnalysis({ data }: Props) {
+export default function MinionAnalysis({ data, stageData, stageList }: Props) {
   const [view, setView] = useState<DetailView>('overview');
   const [selectedMinion, setSelectedMinion] = useState<string | null>(null);
 
@@ -83,6 +90,7 @@ export default function MinionAnalysis({ data }: Props) {
     { id: 'detail' as const, label: '상세 정보' },
     { id: 'combo' as const, label: '미니언 조합' },
     { id: 'stage' as const, label: '챕터별' },
+    { id: 'range' as const, label: '구간별' },
   ];
 
   return (
@@ -153,6 +161,15 @@ export default function MinionAnalysis({ data }: Props) {
       {/* 챕터별 */}
       {view === 'stage' && (
         <StageView data={data} />
+      )}
+
+      {/* 구간별 */}
+      {view === 'range' && stageData && (
+        <RangeView
+          stageData={stageData.stages}
+          minionNames={data.minionNames}
+          stageList={stageList}
+        />
       )}
     </div>
   );
@@ -579,6 +596,250 @@ function StageView({ data }: { data: MinionStats }) {
           </div>
         </div>
       </div>
+    </div>
+  );
+}
+
+// --- 구간별 뷰 ---
+function RangeView({ stageData, minionNames, stageList }: {
+  stageData: Record<string, Record<string, CountPercentage>>;
+  minionNames: Record<string, string>;
+  stageList: string[];
+}) {
+  const numericStages = stageList.map(s => parseInt(s)).sort((a, b) => a - b);
+  const minStage = numericStages[0] || 2001;
+  const maxStage = numericStages[numericStages.length - 1] || 5999;
+
+  const [startStage, setStartStage] = useState(minStage);
+  const [endStage, setEndStage] = useState(minStage + 10);
+
+  const aggregatedData = useMemo(() => {
+    const result: Record<string, { count: number }> = {};
+    let totalCount = 0;
+
+    for (const stage of stageList) {
+      const stageNum = parseInt(stage);
+      if (stageNum >= startStage && stageNum <= endStage) {
+        const stageStats = stageData[stage];
+        if (stageStats) {
+          Object.entries(stageStats).forEach(([minionId, data]) => {
+            if (!result[minionId]) {
+              result[minionId] = { count: 0 };
+            }
+            result[minionId].count += data.count;
+            totalCount += data.count;
+          });
+        }
+      }
+    }
+
+    const finalResult: Record<string, CountPercentage> = {};
+    Object.entries(result).forEach(([minionId, data]) => {
+      finalResult[minionId] = {
+        count: data.count,
+        percentage: totalCount > 0 ? ((data.count / totalCount) * 100).toFixed(2) : '0'
+      };
+    });
+
+    return { minions: finalResult, totalCount };
+  }, [stageData, stageList, startStage, endStage]);
+
+  const stagesInRange = stageList.filter(s => {
+    const num = parseInt(s);
+    return num >= startStage && num <= endStage;
+  }).length;
+
+  const chartData = Object.entries(aggregatedData.minions)
+    .map(([id, stats]) => ({
+      name: minionNames[id] || `미니언 ${id}`,
+      minionId: id,
+      count: stats.count,
+      percentage: parseFloat(stats.percentage)
+    }))
+    .filter(item => item.count > 0)
+    .sort((a, b) => b.percentage - a.percentage);
+
+  const presets = [
+    { label: '2001~2010', start: 2001, end: 2010 },
+    { label: '2011~2020', start: 2011, end: 2020 },
+    { label: '2021~2030', start: 2021, end: 2030 },
+    { label: '2031~2040', start: 2031, end: 2040 },
+    { label: '2041~2060', start: 2041, end: 2060 },
+    { label: '3001~3010', start: 3001, end: 3010 },
+    { label: '3011~3020', start: 3011, end: 3020 },
+    { label: '5001~5010', start: 5001, end: 5010 },
+  ];
+
+  const CustomTooltip = ({ active, payload }: {
+    active?: boolean;
+    payload?: Array<{ payload: { name: string; count: number; percentage: number } }>;
+  }) => {
+    if (active && payload && payload.length) {
+      const d = payload[0].payload;
+      return (
+        <div className="bg-gray-800 p-3 rounded-lg shadow-lg border border-gray-700">
+          <p className="font-bold text-white">{d.name}</p>
+          <p className="text-gray-300">선택 횟수: {d.count.toLocaleString()}</p>
+          <p className="text-blue-400">비율: {d.percentage}%</p>
+        </div>
+      );
+    }
+    return null;
+  };
+
+  return (
+    <div className="space-y-6">
+      {/* 범위 설정 */}
+      <div className="bg-gray-900 rounded-xl p-6 shadow-lg">
+        <h3 className="text-lg font-semibold text-white mb-4">스테이지 구간 선택</h3>
+
+        <div className="flex flex-wrap gap-2 mb-4">
+          {presets.map(preset => (
+            <button
+              key={preset.label}
+              onClick={() => { setStartStage(preset.start); setEndStage(preset.end); }}
+              className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                startStage === preset.start && endStage === preset.end
+                  ? 'bg-blue-600 text-white'
+                  : 'bg-gray-800 text-gray-300 hover:bg-gray-700'
+              }`}
+            >
+              {preset.label}
+            </button>
+          ))}
+        </div>
+
+        <div className="flex flex-wrap items-center gap-4">
+          <div className="flex items-center gap-2">
+            <label className="text-gray-400 text-sm">시작:</label>
+            <input
+              type="number"
+              value={startStage}
+              onChange={(e) => setStartStage(parseInt(e.target.value) || minStage)}
+              min={minStage}
+              max={maxStage}
+              className="w-24 px-3 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-blue-500"
+            />
+          </div>
+          <span className="text-gray-500">~</span>
+          <div className="flex items-center gap-2">
+            <label className="text-gray-400 text-sm">끝:</label>
+            <input
+              type="number"
+              value={endStage}
+              onChange={(e) => setEndStage(parseInt(e.target.value) || maxStage)}
+              min={minStage}
+              max={maxStage}
+              className="w-24 px-3 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-blue-500"
+            />
+          </div>
+          <div className="text-sm text-gray-400">
+            ({stagesInRange}개 스테이지, 총 {aggregatedData.totalCount.toLocaleString()}회 선택)
+          </div>
+        </div>
+      </div>
+
+      {aggregatedData.totalCount === 0 ? (
+        <div className="bg-gray-900 rounded-xl p-6 shadow-lg text-center">
+          <p className="text-gray-400">해당 구간에 미니언 데이터가 없습니다.</p>
+        </div>
+      ) : (
+        <>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {/* 파이 차트 */}
+            <div className="bg-gray-900 rounded-xl p-6 shadow-lg">
+              <h3 className="text-lg font-semibold text-white mb-4">
+                스테이지 {startStage}~{endStage} 미니언 사용 비율
+              </h3>
+              <div className="h-[300px]">
+                <ResponsiveContainer width="100%" height="100%">
+                  <PieChart>
+                    <Pie
+                      data={chartData}
+                      cx="50%"
+                      cy="50%"
+                      outerRadius={100}
+                      dataKey="count"
+                      label={({ name, payload }) => `${name} ${(payload as { percentage: number }).percentage}%`}
+                      labelLine={false}
+                    >
+                      {chartData.map((entry) => (
+                        <Cell key={entry.minionId} fill={MINION_COLORS[entry.minionId] || '#888'} />
+                      ))}
+                    </Pie>
+                    <Tooltip content={<CustomTooltip />} />
+                  </PieChart>
+                </ResponsiveContainer>
+              </div>
+            </div>
+
+            {/* 바 차트 */}
+            <div className="bg-gray-900 rounded-xl p-6 shadow-lg">
+              <h3 className="text-lg font-semibold text-white mb-4">
+                스테이지 {startStage}~{endStage} 미니언 선택률
+              </h3>
+              <div className="h-[300px]">
+                <ResponsiveContainer width="100%" height="100%">
+                  <BarChart
+                    data={chartData}
+                    layout="vertical"
+                    margin={{ top: 5, right: 30, left: 80, bottom: 5 }}
+                  >
+                    <CartesianGrid strokeDasharray="3 3" stroke="#374151" />
+                    <XAxis type="number" stroke="#9CA3AF" tickFormatter={(v) => `${v}%`} />
+                    <YAxis dataKey="name" type="category" stroke="#9CA3AF" width={80} interval={0} />
+                    <Tooltip content={<CustomTooltip />} />
+                    <Bar dataKey="percentage" radius={[0, 4, 4, 0]}>
+                      {chartData.map((entry) => (
+                        <Cell key={entry.minionId} fill={MINION_COLORS[entry.minionId] || '#888'} />
+                      ))}
+                    </Bar>
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+            </div>
+          </div>
+
+          {/* 상세 테이블 */}
+          <div className="bg-gray-900 rounded-xl p-6 shadow-lg">
+            <h3 className="text-lg font-semibold text-white mb-4">미니언별 상세 통계</h3>
+            <div className="overflow-x-auto">
+              <table className="w-full">
+                <thead>
+                  <tr className="border-b border-gray-800">
+                    <th className="text-left py-3 px-4 text-gray-400 font-medium">순위</th>
+                    <th className="text-left py-3 px-4 text-gray-400 font-medium">미니언</th>
+                    <th className="text-right py-3 px-4 text-gray-400 font-medium">선택 횟수</th>
+                    <th className="text-right py-3 px-4 text-gray-400 font-medium">비율</th>
+                    <th className="text-left py-3 px-4 text-gray-400 font-medium">그래프</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {chartData.map((minion, idx) => (
+                    <tr key={minion.minionId} className="border-b border-gray-800/50 hover:bg-gray-800/30">
+                      <td className="py-3 px-4 text-gray-500">{idx + 1}</td>
+                      <td className="py-3 px-4 text-white font-medium">{minion.name}</td>
+                      <td className="py-3 px-4 text-right text-gray-300">{minion.count.toLocaleString()}</td>
+                      <td className="py-3 px-4 text-right text-blue-400 font-medium">{minion.percentage}%</td>
+                      <td className="py-3 px-4 w-48">
+                        <div className="h-2 bg-gray-800 rounded-full overflow-hidden">
+                          <div
+                            className="h-full rounded-full"
+                            style={{
+                              width: `${minion.percentage}%`,
+                              backgroundColor: MINION_COLORS[minion.minionId] || '#888'
+                            }}
+                          />
+                        </div>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </>
+      )}
     </div>
   );
 }
